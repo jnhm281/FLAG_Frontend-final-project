@@ -1,7 +1,15 @@
+import Hero from "./Hero";
+import RecentTrips from "./RecentTrips";
+import OtherTrips from "./OtherTrips";
+
 function Body() {
   return (
     <>
-      <p>HERO</p>
+      <section className="body-container">
+        <Hero />
+        <RecentTrips />
+        <OtherTrips />
+      </section>
     </>
   );
 }

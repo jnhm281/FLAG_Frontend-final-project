@@ -1,7 +1,7 @@
 function Menu() {
   return (
     <>
-      <div className="menu-nav">
+      <div className="menu-block">
         <a href="" className="menu-home">
           Home
         </a>

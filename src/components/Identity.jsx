@@ -2,8 +2,12 @@ function Identity() {
   return (
     <>
       <div className="identity-block">
-        <img src="" alt="Logo" className="identity-logo" />
-        <h2 className="identity-title">Titulo da Página</h2>
+        <a href="" className="identity-logo">
+          <img src="" alt="Logo" />
+        </a>
+        <a href="" className="identity-title">
+          <h2>Titulo da Página</h2>
+        </a>
       </div>
     </>
   );
