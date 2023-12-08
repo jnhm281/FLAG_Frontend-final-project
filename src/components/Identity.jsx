@@ -2,11 +2,12 @@ function Identity() {
   return (
     <>
       <div className="identity-block">
-        <a href="" className="identity-logo">
-          <img src="" alt="Logo" />
-        </a>
-        <a href="" className="identity-title">
-          <h2>Titulo da Página</h2>
+        <a href="">
+          <img
+            src="src\assets\logo\Wordmark-White-250x150.svg"
+            alt="Wordmark"
+            className="identity-logo"
+          />
         </a>
       </div>
     </>
