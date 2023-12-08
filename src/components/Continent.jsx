@@ -4,7 +4,11 @@ function Continent() {
   return (
     <>
       <div className="continent-wrap">
-        <img src="" alt="Continent img" className="continent-img" />
+        <img
+          src="src\assets\images\Europe.jpg"
+          alt="Continent img"
+          className="continent-img"
+        />
         <CardWrap />
       </div>
     </>

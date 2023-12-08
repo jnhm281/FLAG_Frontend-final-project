@@ -4,7 +4,7 @@ function TripCard() {
       <div className="tripCard">
         <a href="">
           <img
-            src="src\assets\images\new york\New-York-Times-Square.jpg"
+            src="src\assets\images\new-york\New-York-Times-Square.jpg"
             alt="New York - Times Square"
             className="card-img"
           />
