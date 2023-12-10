@@ -4,7 +4,9 @@ function RecentTrips() {
   return (
     <>
       <div className="recent-block">
-        <h2>Recent trips</h2>
+        <span className="block-title">
+          <h2>Recent trips</h2>
+        </span>
         <CardWrap />
       </div>
     </>

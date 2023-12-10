@@ -5,7 +5,9 @@ function OtherTrips() {
   return (
     <>
       <div className="otherTrips-block">
-        <h2>Other trips</h2>
+        <span className="block-title">
+          <h2>Other trips</h2>
+        </span>
         <WorldMap />
         <Continent />
         <Continent />
