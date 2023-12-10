@@ -1,14 +1,15 @@
-import CardWrap from "./CardWrap";
+import CardContainer from "./CardContainer";
 
 function RecentTrips() {
   return (
     <>
-      <div className="recent-block">
-        <span className="block-title">
+      <section className="recent-trips">
+        <div className="section-title">
           <h2>Recent trips</h2>
-        </span>
-        <CardWrap />
-      </div>
+        </div>
+        <CardContainer />
+        {/* <div></div> */}
+      </section>
     </>
   );
 }

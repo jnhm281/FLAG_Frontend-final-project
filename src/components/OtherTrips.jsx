@@ -1,21 +1,19 @@
-import WorldMap from "./WorldMap";
-import Continent from "./Continent";
-
 function OtherTrips() {
   return (
     <>
-      <div className="otherTrips-block">
-        <span className="block-title">
+      <section className="other-Trips">
+        <div className="section-title">
           <h2>Other trips</h2>
-        </span>
-        <WorldMap />
-        <Continent />
-        <Continent />
-        <Continent />
-        <Continent />
-        <Continent />
-        <Continent />
-      </div>
+        </div>
+        <div className="worldMap-container">
+          <img
+            src="src\assets\images\World-Map.svg"
+            alt="World Map"
+            className="worldMap-img"
+          />
+        </div>
+        {/* <div></div> */}
+      </section>
     </>
   );
 }

@@ -3,7 +3,7 @@ import TripCard from "./TripCard";
 function CardWrap() {
   return (
     <>
-      <div className="card-wrap">
+      <div className="card-container">
         <TripCard />
         <TripCard />
         <TripCard />

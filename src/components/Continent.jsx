@@ -1,16 +1,19 @@
-import CardWrap from "./CardWrap";
+import CardContainer from "./CardContainer";
 
 function Continent() {
   return (
     <>
-      <div className="continent-wrap">
-        <img
-          src="src\assets\images\Europe.jpg"
-          alt="Continent img"
-          className="continent-img"
-        />
-        <CardWrap />
-      </div>
+      <section className="continent">
+        <div>
+          <img
+            src="src\assets\images\Europe.jpg"
+            alt="Continent img"
+            className="continent-img"
+          />
+        </div>
+        <CardContainer />
+        {/* <div></div> */}
+      </section>
     </>
   );
 }
