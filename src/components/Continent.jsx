@@ -10,6 +10,7 @@ function Continent() {
             alt="Continent img"
             className="continent-img"
           />
+          <h2 className="continent-title">Europe</h2>
         </div>
         <CardContainer />
         {/* <div></div> */}
