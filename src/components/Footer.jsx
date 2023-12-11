@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <div className="footer-container">
+      <div className="footer">
         <a href="" className="footer-copyright">
           Copyright
         </a>

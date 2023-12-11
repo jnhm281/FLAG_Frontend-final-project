@@ -2,7 +2,7 @@ function Hero() {
   return (
     <>
       <section className="hero">
-        <div>
+        <div className="hero-container">
           <a href="">
             <img
               src="src\assets\images\new-york\New-York-Times-Square.jpg"

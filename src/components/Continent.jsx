@@ -4,7 +4,7 @@ function Continent() {
   return (
     <>
       <section className="continent">
-        <div>
+        <div className="continent-img-container">
           <img
             src="src\assets\images\Europe.jpg"
             alt="Continent img"

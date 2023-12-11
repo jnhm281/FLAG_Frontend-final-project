@@ -1,7 +1,7 @@
 function OtherTrips() {
   return (
     <>
-      <section className="other-Trips">
+      <section className="other-trips">
         <div className="section-title">
           <h2>Other trips</h2>
         </div>
