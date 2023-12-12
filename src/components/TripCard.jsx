@@ -1,8 +1,10 @@
+import { Link } from "wouter";
+
 function TripCard() {
   return (
     <>
       <div className="tripCard">
-        <a href="">
+        <Link href="">
           <img
             src="src\assets\images\new-york\New-York-Times-Square.jpg"
             alt="New York - Times Square"
@@ -10,7 +12,7 @@ function TripCard() {
           />
           <h3>Destino</h3>
           <h4>Data</h4>
-        </a>
+        </Link>
       </div>
     </>
   );

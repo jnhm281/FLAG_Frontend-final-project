@@ -3,11 +3,11 @@ import RecentTrips from "./RecentTrips";
 import OtherTrips from "./OtherTrips";
 import Continent from "./Continent";
 
-function Body() {
+function BodyAbout() {
   return (
     <>
-      <div className="body-home-page">
-        <Hero />
+      <div className="body-about-page">
+        {/* <Hero />
         <RecentTrips />
         <OtherTrips />
         <Continent />
@@ -15,10 +15,10 @@ function Body() {
         <Continent />
         <Continent />
         <Continent />
-        <Continent />
+        <Continent /> */}
       </div>
     </>
   );
 }
 
-export default Body;
+export default BodyAbout;

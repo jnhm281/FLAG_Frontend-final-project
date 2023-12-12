@@ -1,26 +1,28 @@
+import { Link } from "wouter";
+
 function Header() {
   return (
     <>
       <div className="header">
         <div className="identity">
-          <a href="">
+          <Link href="">
             <img
               src="src\assets\logo\Wordmark-White-250x150.svg"
               alt="Wordmark"
               className="identity-logo"
             />
-          </a>
+          </Link>
         </div>
         <div className="menu">
-          <a href="" className="menu-home">
+          <Link href="/" className="menu-home">
             Home
-          </a>
-          <a href="" className="menu-add">
+          </Link>
+          <Link href="/addlocation" className="menu-add">
             Add Location
-          </a>
-          <a href="" className="menu-about">
+          </Link>
+          <Link href="/about" className="menu-about">
             The Traveler
-          </a>
+          </Link>
         </div>
       </div>
     </>
