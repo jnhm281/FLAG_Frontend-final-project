@@ -6,11 +6,7 @@ function Header() {
       <div className="header">
         <div className="identity">
           <Link href="">
-            <img
-              src="public\logo\abc.svg"
-              alt="Wordmark"
-              className="identity-logo"
-            />
+            <img src="/logo/abc.svg" alt="Wordmark" className="identity-logo" />
           </Link>
         </div>
         <div className="menu">
