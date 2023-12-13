@@ -7,7 +7,7 @@ function Header() {
         <div className="identity">
           <Link href="">
             <img
-              src="src\assets\logo\Wordmark-White-250x150.svg"
+              src="public\logo\abc.svg"
               alt="Wordmark"
               className="identity-logo"
             />
