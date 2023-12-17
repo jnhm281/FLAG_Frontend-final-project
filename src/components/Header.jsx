@@ -5,7 +5,7 @@ function Header() {
     <>
       <div className="header">
         <div className="identity">
-          <Link href="">
+          <Link href="/">
             <img src="/logo/abc.svg" alt="Wordmark" className="identity-logo" />
           </Link>
         </div>
