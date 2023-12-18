@@ -8,7 +8,7 @@ function BodyAbout() {
           </div>
           <div className="about-container">
             <img
-              src="public/images/Profile-Photo.jpg"
+              src="/images/Profile-Photo.jpg"
               alt="Bio Img"
               className="about-img"
             />

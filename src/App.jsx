@@ -2,8 +2,9 @@ import { Route, Switch } from "wouter";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePageView from "./views/HomePageView";
-import AddLocationView from "./views/AddLocationView";
+import AddDestinationView from "./views/AddDestinationView";
 import AboutView from "./views/AboutView";
+import TripView from "./views/TripView";
 
 function App() {
   return (
@@ -11,11 +12,12 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" component={HomePageView} />
-        <Route path="/addLocation" component={AddLocationView} />
+        <Route path="/addDestination" component={AddDestinationView} />
         <Route path="/about" component={AboutView} />
+        <Route path="/trip" component={TripView} />
         <Route>
           <h2>404</h2>
-          <p>Ups, something went wrong alog the way.</p>
+          <p>Ups, something went wrong along the way.</p>
         </Route>
       </Switch>
       <Footer />

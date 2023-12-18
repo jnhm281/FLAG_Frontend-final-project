@@ -7,8 +7,8 @@ function OtherTrips() {
         </div>
         <div className="worldMap-container">
           <img
-            src="\images\World-Map.svg"
-            alt="World Map"
+            src="/images/World-Map.svg"
+            alt="World Map - Img"
             className="worldMap-img"
           />
         </div>

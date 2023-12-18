@@ -1,10 +1,10 @@
-import BodyHomePage from "../components/BodyHomePage";
+import BodyTrip from "../components/BodyTrip";
 
 function TripView() {
   return (
     <>
       <div className="home-page">
-        <BodyHomePage />
+        <BodyTrip />
       </div>
     </>
   );

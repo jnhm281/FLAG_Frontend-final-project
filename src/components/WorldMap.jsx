@@ -3,7 +3,7 @@ function WorldMap() {
     <>
       <div className="worldMap-wrap">
         <img
-          src="src\assets\images\World-Map.svg"
+          src="/images/World-Map.svg"
           alt="World Map - Img"
           className="worldMap-img"
         />

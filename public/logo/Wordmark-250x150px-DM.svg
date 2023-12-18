@@ -11,14 +11,14 @@
                 <g transform="matrix(2.42001,0,0,4.03335,-794.679,-1625.82)">
                     <g id="Layer1">
                         <g>
-                            <g transform="matrix(0.422595,0,0,0.422595,261.181,359.426)">
-                                <text x="199.927px" y="194.578px" style="font-family:'Archivo-Black', 'Archivo';font-weight:900;font-size:48px;fill:white;stroke:white;stroke-width:1px;">TRA<tspan x="306.871px " y="194.578px ">V</tspan>EL</text>
+                            <g transform="matrix(0.422595,0,0,0.422595,255.003,362.374)">
+                                <text x="199.927px" y="194.578px" style="font-family:'FiraSans-Black', 'Fira Sans', sans-serif;font-weight:900;font-size:66.667px;fill:white;">TRA<tspan x="317.193px " y="194.578px ">V</tspan>EL</text>
                             </g>
-                            <g transform="matrix(0.422595,0,0,0.422595,244.064,338.437)">
-                                <text x="199.927px" y="194.578px" style="font-family:'Archivo-SemiBold', 'Archivo';font-weight:600;font-size:24px;fill:white;stroke:white;stroke-width:1px;">THE</text>
+                            <g transform="matrix(0.422595,0,0,0.422595,244.207,333.425)">
+                                <text x="199.927px" y="194.578px" style="font-family:'FiraSans-Black', 'Fira Sans', sans-serif;font-weight:900;font-size:42.667px;fill:white;">THE</text>
                             </g>
-                            <g transform="matrix(0.422595,0,0,0.422595,243.547,373.559)">
-                                <text x="199.927px" y="194.578px" style="font-family:'Archivo-SemiBold', 'Archivo';font-weight:600;font-size:24px;fill:white;stroke:white;stroke-width:1px;">BL<tspan x="229.831px " y="194.578px ">O</tspan>G</text>
+                            <g transform="matrix(0.422595,0,0,0.422595,243.522,383.904)">
+                                <text x="199.927px" y="194.578px" style="font-family:'FiraSans-Black', 'Fira Sans', sans-serif;font-weight:900;font-size:42.667px;fill:white;">BL<tspan x="247.031px " y="194.578px ">O</tspan>G</text>
                             </g>
                         </g>
                     </g>
