@@ -55,6 +55,12 @@ p {
     height: 100%;
 }
 
+.identity-home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 .identity-logo {
     width: 160px;
     height: 100%;
@@ -63,7 +69,7 @@ p {
 .menu {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.5rem;
 }
 
 .menu > a {
@@ -73,14 +79,23 @@ p {
 }
 
 .menu-home {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     color: white;
 }
 
 .menu-add {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     color: white;
 }
 
 .menu-about {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     color: white;   
 }
 
@@ -116,8 +131,8 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 90vh;
-    padding-top: 10vh;
+    height: 80vh;
+    padding-top: 20vh;
     scroll-snap-align: start;
 }
 
@@ -125,7 +140,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; 
+    height: 10vh;
 }
 
 .section-title > h2 {
@@ -153,19 +168,8 @@ p {
 .tripCard-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: ; */
     align-items: left;
-}
-
-.tripCard-location {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-}
-
-.tripCard-date {
-    font-size: 1.17rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
 }
 
 .card-img {
@@ -174,13 +178,43 @@ p {
     object-fit: cover;
 }
 
+.tripCard-info {
+    height: 30%;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tripCard-location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tripCard-location > h3 {
+    font-size: 1.5rem;
+}
+
+.tripCard-date {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tripCard-date > h4 {
+    font-size: 1.17rem;
+}
+
 .other-trips {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 90vh;
-    padding-top: 10vh;
+    height: 80vh;
+    padding-top: 20vh;
     scroll-snap-align: start;
 }
 
@@ -249,6 +283,107 @@ p {
     height: fit-content;
 }
 
+.body-add-destination-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.addDestination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    padding-top:20vh;
+    scroll-snap-align: start;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 80vh;
+    gap: 4rem;
+}
+
+.form-newDestination {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-label {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-newDestination > input {
+    width: 50%;
+}
+
+
+.form-dates {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    width: 100%;
+}
+
+.form-checkIn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-checkOut {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-files {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%;
+}
+
+.form-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-textarea {
+    resize: none;
+}
+
+.form-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-submit {
+    width: 100%;
+}
+
+.form-submit > input {
+    width: 100%;
+    height: 3rem;
+}
+
 .body-about-page {
     display: flex;
     flex-direction: column;
@@ -260,8 +395,8 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 90vh;
-    padding-top: 10vh;
+    height: 80vh;
+    padding-top: 20vh;
     scroll-snap-align: start;
 }
 
@@ -292,28 +427,111 @@ p {
     height: 50vh;
 }
 
-.body-add-destination-page {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.addDestination {
+.trip-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 90vh;
-    padding-top: 10vh;
+    height: 80vh;
+    padding-top: 20vh;
     scroll-snap-align: start;
 }
 
-.form-container {
+.trip-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    height: 10vh;
+    gap: 2rem;
+}
+
+.trip-title > h2 {
+    font-size: 2rem;
+}
+
+.trip-title > h3 {
+    font-size: 1.75rem;
+}
+
+.trip-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    height: 70vh;
+}
+
+.trip-wrap-1 {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+    
+
+.trip-img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.trip-auto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+    height: 100%;
+}
+
+.trip-worldMap {
+    width: 100%;
+}
+
+.trip-weather {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.trip-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 80vh;
-    gap: 40px;
+    padding-top: 20vh;
+    scroll-snap-align: start;
+}
+
+.trip-subtitle > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.75rem;
+}
+
+.trip-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    height: 70vh;
+}
+
+.trip-wrap-2 {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.trip-sumary {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: aqua;
+}
+
+.trip-description {
+    width: 70%;
 }

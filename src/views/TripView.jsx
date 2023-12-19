@@ -3,7 +3,7 @@ import BodyTrip from "../components/BodyTrip";
 function TripView() {
   return (
     <>
-      <div className="home-page">
+      <div className="trip-page">
         <BodyTrip />
       </div>
     </>

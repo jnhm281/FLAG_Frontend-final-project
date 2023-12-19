@@ -1,11 +1,12 @@
 function WorldMap() {
   return (
     <>
-      <div className="worldMap-wrap">
+      <div className="trip-worldMap-wrap">
+        <span></span>
         <img
           src="/images/World-Map.svg"
           alt="World Map - Img"
-          className="worldMap-img"
+          className="trip-worldMap-img"
         />
       </div>
     </>

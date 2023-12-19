@@ -5,7 +5,8 @@ function Header() {
     <>
       <div className="header">
         <div className="identity">
-          <Link href="/">
+          <Link href="/" className="identity-home">
+            <span></span>
             <img
               src="/logo/Wordmark-250x150px-DM.svg"
               alt="Wordmark"
@@ -15,13 +16,16 @@ function Header() {
         </div>
         <div className="menu">
           <Link href="/" className="menu-home">
-            Home
+            <i class="fa-solid fa-house"></i>
+            <span className="menu-text">Home</span>
           </Link>
           <Link href="/adddestination" className="menu-add">
-            Add Destination
+            <i class="fa-solid fa-plus"></i>
+            <span className="menu-text">Add Destination</span>
           </Link>
           <Link href="/about" className="menu-about">
-            The Traveler
+            <i class="fa-solid fa-user-astronaut"></i>
+            <span className="menu-text">The Traveler</span>
           </Link>
         </div>
       </div>
