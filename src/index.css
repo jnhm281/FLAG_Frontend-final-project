@@ -1,10 +1,11 @@
+/* Imports */
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* font-family: 'Fira Sans', sans-serif;
-font-family: 'PT Serif', serif; */
+/* Resets */
 
 html {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 
 body {
@@ -28,162 +29,175 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+}
+
 p {
     font-family: 'PT Serif', serif;
     margin: 0;
     padding: 0;
 }
 
-/* .home-page {
+/* Header */
 
-} */
-
-.header {
+.header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 20vh;
-    z-index: 1;
+    height: 6rem;
     position: fixed;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%); 
+    z-index: 1;
+    background: rgba(255, 0, 0, 0.432);
 }
 
-.identity {
+.header-identity {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.header-identity > a {
+    width: fit-content;
+    height: fit-content;
+}
+
+.header-identity-home {
     display: flex;
     align-items: center;
     height: 100%;
 }
 
-.identity-home {
+.header-identity-home-logo {
+    height: 5.125rem;
+}
+
+.header-menu {
     display: flex;
     align-items: center;
-    height: 100%;
+    gap: 2rem;
 }
 
-.identity-logo {
-    width: 160px;
-    height: 100%;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.menu > a {
+.header-menu > a {
     width: fit-content;
     height: fit-content;
     font-size: 1.25rem;
 }
 
-.menu-home {
+.header-menu-home {
     display: flex;
     align-items: center;
     gap: 1rem;
     color: white;
 }
 
-.menu-add {
+.header-menu-add {
     display: flex;
     align-items: center;
     gap: 1rem;
     color: white;
 }
 
-.menu-about {
+.header-menu-about {
     display: flex;
     align-items: center;
     gap: 1rem;
     color: white;   
 }
 
-.body-home-page {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+/* Home Page */
 
-.hero {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    scroll-snap-align: start;
-}
+/* .home-page {
+
+} */
+
+/* .body-home-page {
+
+} */
+
+        /* Hero */
 
 .hero-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    scroll-snap-align: start;
 }
 
 .hero-img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
 }
 
-.recent-trips {
+        /* Recent Trips */
+
+.recent-trips-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 80vh;
-    padding-top: 20vh;
+    padding-top: 6rem;
     scroll-snap-align: start;
 }
 
 .section-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+    line-height: 6rem;
+    vertical-align: middle;
 }
 
-.section-title > h2 {
-    font-size: 2rem;
-}
+        /* Card Container */
 
 .card-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 100%;
-    height: 80vh;
+    flex-wrap: wrap;
+    gap: 2rem;
+    min-height: calc(100vh - 16rem);
+    padding: 2rem 2rem;
 }
 
-.tripCard {
-    width: 320px;
-    height: 40vh;
-    border-radius: 6px;
-    border: 1px solid black;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
-}
+        /* Card */
 
 .tripCard-container {
     display: flex;
     flex-direction: column;
-    /* justify-content: ; */
-    align-items: left;
+    justify-content: space-between;
+    width: 312px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
 }
 
 .card-img {
     width: 100%;
-    height: 70%;
     object-fit: cover;
 }
 
 .tripCard-info {
-    height: 30%;
-    padding-left: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-left: 2rem;
 }
 
 .tripCard-location {
@@ -191,84 +205,109 @@ p {
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+    font-size: 1.3rem;
 }
 
-.tripCard-location > h3 {
-    font-size: 1.5rem;
-}
+/* .tripCard-location-text {
+
+} */
 
 .tripCard-date {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+    font-size: 1.3rem;
 }
 
-.tripCard-date > h4 {
-    font-size: 1.17rem;
-}
+/* .tripCard-date-text {
 
-.other-trips {
+} */
+
+        /* OtherTrips */
+
+.other-trips-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
-    padding-top: 20vh;
+    padding-top: 6rem;
     scroll-snap-align: start;
 }
 
 .worldMap-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80vh;
 }
 
 .worldMap-img {
-    width: 80%;
+    width: 100%;
+    height: calc(100vh - 16rem);
+    padding: 0 2rem 4rem 2rem;
     object-fit: cover;
 }
 
-.continent {
+        /* Other Trips mobile */
+
+.continent-title-container-mobile {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
     width: 100%;
-    height: 100vh;
-    scroll-snap-align: start;
+    height: calc((100vh - 12rem));
 }
 
-.continent-img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 20vh;
+.continent-title-mobile {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.continent-img-container > h2 {
-   font-size: 2rem; 
+.continent-title-img-mobile {
+    width: 100%;
+    height: 4rem;
+    object-fit: cover;
 }
 
-.continent-img {
+.continent-title-text-mobile {
+    position: absolute;
+    line-height: 4rem;
+    width: 100%;
+    top: 0;
+}
+
+        /* Continent */
+
+.continent-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    scroll-snap-align: start;
+}
+
+.continent-title {
+    height: 6rem;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.continent-title-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.continent-title {
+.continent-title-text {
     position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    line-height: 6rem;
+    width: 100%;
+    top: 0;
 }
 
-.footer {
+/* Footer */
+
+.footer-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -283,79 +322,112 @@ p {
     height: fit-content;
 }
 
-.body-add-destination-page {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+/* Add Destination Page */
 
-.addDestination {
+/* .add-destination-page {
+
+} */
+
+/* .body-add-destination-page {
+
+} */
+
+        /* Add Destination */
+
+.addDestination-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 80vh;
-    padding-top:20vh;
+    padding-top: 6rem;
     scroll-snap-align: start;
+
 }
 
-.form-container {
+        /* Form */
+
+.form-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 40%;
-    height: 80vh;
-    gap: 4rem;
+    width: 60%;
+    min-height: calc(100vh - 16rem);
+    gap: 2rem;
+    padding: 2rem 2rem;
+    font-size: 1.3rem;
+    /* font-family: 'PT Serif', serif; */
+    /* font-family: 'Fira Sans', sans-serif; */
 }
 
 .form-newDestination {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 1rem;
     width: 100%;
 }
 
-.form-label {
+.form-newDestination-label {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
-.form-newDestination > input {
+/* .form-newDestination-label-text {
+
+} */
+
+.form-newDestination-input {
     width: 50%;
 }
-
 
 .form-dates {
     display: flex;
     justify-content: space-between;
-    gap: 6rem;
     width: 100%;
-}
-
-.form-checkIn {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.form-checkOut {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.form-files {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     gap: 4rem;
+    /* flex-wrap: wrap; */
+}
+
+.form-dates-checkIn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     width: 100%;
 }
+
+.form-dates-checkIn-label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .form-dates-checkIn-label-text {
+    
+} */
+
+/* .form-dates-checkIn-input {
+
+} */
+
+.form-dates-checkOut {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-dates-checkOut-label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .form-dates-checkOut-label-text {
+    
+} */
+
+/* .form-dates-checkOut-input {
+
+} */
 
 .form-description {
     display: flex;
@@ -364,7 +436,17 @@ p {
     width: 100%;
 }
 
-.form-textarea {
+.form-description-label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .form-description-label-text {
+    
+} */
+
+.form-description-input {
     resize: none;
 }
 
@@ -375,11 +457,25 @@ p {
     width: 100%;
 }
 
+.form-upload-label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .form-upload-label-text {
+
+} */
+
+/* .form-upload-input {
+
+} */
+
 .form-submit {
     width: 100%;
 }
 
-.form-submit > input {
+.form-submit-input {
     width: 100%;
     height: 3rem;
 }
@@ -390,44 +486,84 @@ p {
     width: 100%;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 80vh;
-    padding-top: 20vh;
-    scroll-snap-align: start;
-}
+/* About Page */
+
+/* .about-page {
+
+} */
+
+/* .body-about-page {
+
+} */
+
+        /* About */
 
 .about-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 80vh;
-    gap: 40px;
+    padding-top: 6rem;
+    scroll-snap-align: start;
 }
 
-.about-img {
-    width: 20%;
-    height: 50vh;
-    object-fit: cover;
-    border-radius: 6px;
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    min-height: calc(100vh - 16rem);
+    padding: 2rem 2rem;
 }
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-details-img {
+    width: 311px;
+    height: 415px;
+    object-fit: cover;
+}
+
+/* .about-details-name {
+
+} */
+
+/* .about-details-age {
+
+} */
+
+/* .about-details-naturality {
+
+} */
 
 .about-presentation {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    gap: 20px;
-    width: 40%;
-    height: 50vh;
+    max-width: 616px;
+    
 }
 
-.trip-hero {
+/* .about-presentation-text {
+
+} */
+
+/* Trip Page */
+
+/* .trip-page {
+
+} */
+
+/* .body-trip-page {
+
+} */
+
+        /* Add Destination */
+
+.trip-container {
     display: flex;
     flex-direction: column;
     align-items: center;

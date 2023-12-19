@@ -3,19 +3,16 @@ import CardContainer from "./CardContainer";
 function Continent() {
   return (
     <>
-      <section className="continent">
-        <div className="continent-img-container">
+      <section className="continent-container">
+        <div className="continent-title">
           <img
             src="/images/Europe.jpg"
             alt="Continent img"
-            className="continent-img"
+            className="continent-title-img"
           />
-        </div>
-        <div className="section-title">
-          <h2>Europe</h2>
+          <h2 className="continent-title-text">Europe</h2>
         </div>
         <CardContainer />
-        {/* <div></div> */}
       </section>
     </>
   );

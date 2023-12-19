@@ -5,7 +5,7 @@ function BodyTrip() {
   return (
     <>
       <div className="body-trip-page">
-        <section className="trip-hero">
+        <section className="trip-container">
           <div className="section-title, trip-title">
             <i class="fa-solid fa-location-dot"></i>
             <h2 className="trip-destination">New York</h2>
