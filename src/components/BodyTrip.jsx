@@ -1,4 +1,4 @@
-import WeatherContainer from "./WeatherContainer";
+import Weather from "./Weather";
 import RecentTrips from "./RecentTrips";
 
 function BodyTrip() {
@@ -6,39 +6,43 @@ function BodyTrip() {
     <>
       <div className="body-trip-page">
         <section className="trip-container">
-          <div className="section-title, trip-title">
-            <i class="fa-solid fa-location-dot"></i>
-            <h2 className="trip-destination">New York</h2>
-            <i class="fa-solid fa-calendar-days"></i>
-            <h3 className="trip-date">2016</h3>
+          <div className="trip-title">
+            <div className="trip-title-destination">
+              <i class="fa-solid fa-location-dot"></i>
+              <h2 className="trip-title-destination-text">New York</h2>
+            </div>
+            <div className="trip-title-date">
+              <i class="fa-solid fa-calendar-days"></i>
+              <h3 className="trip-title-date-text">2016</h3>
+            </div>
           </div>
-          <div className="trip-container-1">
-            <div className="trip-wrap-1">
+          <div className="trip-wrapper-1">
+            {/*  */}
+            <div className="trip-slider">
               <img
                 src="/images/new-york/New-York-Times-Square.jpg"
                 alt="New York - Times Square"
-                className="trip-img"
+                className="trip-slider-img"
               />
-              <div className="trip-auto">
-                <img
-                  src="/images/World-Map.svg"
-                  alt="World Map - Img"
-                  className="trip-worldMap"
-                />
-                <WeatherContainer />
-              </div>
+            </div>
+            {/*  */}
+            <div className="trip-info">
+              <img
+                src="/images/World-Map.svg"
+                alt="World Map - Img"
+                className="trip-info-map"
+              />
+              <Weather />
             </div>
           </div>
-        </section>
-        <section className="trip-details">
-          <div className="trip-subtitle">
-            <h3>New York: A Dynamic Tapestry of Culture and Excitement</h3>
-          </div>
-          <div className="trip-container-2">
-            <div className="trip-wrap-2">
-              <div className="trip-sumary">test</div>
-              <div className="trip-description">
-                <p>
+          <div className="trip-wrapper-2">
+            <div className="trip-subtitle">
+              <h2>New York: A Dynamic Tapestry of Culture and Excitement</h2>
+            </div>
+            <div className="trip-summary">
+              <div className="trip-summary-highlights">highlights-2</div>
+              <div className="trip-summary-description">
+                <p className="trip-summary-description-text">
                   Visiting New York is an exhilarating experience that immerses
                   you in the vibrant energy and cultural diversity of the city
                   that never sleeps. As you stroll through the bustling streets,
