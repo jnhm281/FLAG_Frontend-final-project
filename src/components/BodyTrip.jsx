@@ -1,7 +1,7 @@
 import Weather from "./Weather";
 import RecentTrips from "./RecentTrips";
 
-function BodyTrip() {
+function BodyTrip({ tripDetail }) {
   return (
     <>
       <div className="body-trip-page">
@@ -9,19 +9,21 @@ function BodyTrip() {
           <div className="trip-title">
             <div className="trip-title-destination">
               <i class="fa-solid fa-location-dot"></i>
-              <h2 className="trip-title-destination-text">New York</h2>
+              <h2 className="trip-title-destination-text">{tripDetail.city}</h2>
             </div>
             <div className="trip-title-date">
-              <i class="fa-solid fa-calendar-days"></i>
-              <h3 className="trip-title-date-text">2016</h3>
+              <i class="fa-solid fa-plane-departure"></i>
+              <h3 className="trip-title-date-text">{tripDetail.checkIn}</h3>
+              <i class="fa-solid fa-plane-arrival"></i>
+              <h3 className="trip-title-date-text">{tripDetail.checkOut}</h3>
             </div>
           </div>
           <div className="trip-wrapper-1">
             {/*  */}
             <div className="trip-slider">
               <img
-                src="/images/new-york/New-York-Times-Square.jpg"
-                alt="New York - Times Square"
+                src={tripDetail.coverImg}
+                alt={tripDetail.city + " cover image"}
                 className="trip-slider-img"
               />
             </div>
@@ -37,32 +39,13 @@ function BodyTrip() {
           </div>
           <div className="trip-wrapper-2">
             <div className="trip-subtitle">
-              <h2>New York: A Dynamic Tapestry of Culture and Excitement</h2>
+              <h2>{tripDetail.summaryTitle}</h2>
             </div>
             <div className="trip-summary">
               <div className="trip-summary-highlights">highlights-2</div>
               <div className="trip-summary-description">
                 <p className="trip-summary-description-text">
-                  Visiting New York is an exhilarating experience that immerses
-                  you in the vibrant energy and cultural diversity of the city
-                  that never sleeps. As you stroll through the bustling streets,
-                  towering skyscrapers create a breathtaking skyline, and iconic
-                  landmarks like the Statue of Liberty and Times Square dazzle
-                  with their grandeur. The city's melting pot of cultures is
-                  reflected in its eclectic neighborhoods, each offering a
-                  unique flavor and atmosphere. From the historic charm of
-                  Greenwich Village to the trendy boutiques of SoHo, every
-                  corner unveils a new facet of this metropolis. The
-                  world-renowned museums, such as the Metropolitan Museum of Art
-                  and the Museum of Modern Art, showcase an unparalleled
-                  collection of art and history. Culinary delights abound, with
-                  street vendors offering diverse bites and Michelin-starred
-                  restaurants serving exquisite meals. The fast-paced rhythm of
-                  life in New York is complemented by serene escapes like
-                  Central Park, where you can find respite amid the urban
-                  hustle. The city's dynamism and the sense of endless
-                  possibilities make a visit to New York an unforgettable
-                  adventure.
+                  {tripDetail.summaryText}
                 </p>
               </div>
             </div>

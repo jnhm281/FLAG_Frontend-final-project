@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import TripCard from "./TripCard";
 import getTripList from "../services/getTripList";
+import TripCard from "./TripCard";
 import OtherTrips from "./OtherTrips";
 
 function CardContainer() {
