@@ -1,21 +1,21 @@
 import Hero from "./Hero";
 import RecentTrips from "./RecentTrips";
 import OtherTrips from "./OtherTrips";
-import Continent from "./Continent";
+import CardContainer from "./CardContainer";
 
 function BodyHomePage() {
   return (
     <>
       <div className="body-home-page">
         <Hero />
-        <RecentTrips />
+        <CardContainer />
+        {/* <RecentTrips />
         <OtherTrips />
         <Continent />
         <Continent />
         <Continent />
         <Continent />
-        <Continent />
-        <Continent />
+        <Continent /> */}
       </div>
     </>
   );

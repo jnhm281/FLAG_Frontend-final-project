@@ -1,553 +1,557 @@
-[
-    {
-        "id": "1",
-        "city": "Paris",
-        "country": "France",
-        "continent": "Europe",
-        "currency": "Euro",
-        "type": "city",
-        "price": "2",
-        "checkIn": "14-05-2009",
-        "checkOut": "18-05-2009",
-        "latitude": "48.85341",
-        "longitude": "2.3488",
-        "weatherName": "paris",
-        "summaryTitle": "City of Light Magic: Exploring the Charms of Paris",
-        "summaryText": "Paris, the City of Light, captivates visitors with its timeless allure and enchanting beauty. From the iconic Eiffel Tower standing tall against the skyline to the charming cobblestone streets of Montmartre, every corner exudes a romantic and artistic ambiance. Renowned museums like the Louvre and Musée d'Orsay house priceless treasures, while the Seine River gracefully winds its way through the heart of the city. Parisian cafes beckon with the promise of leisurely moments spent savoring exquisite pastries and aromatic coffee. The juxtaposition of historic landmarks like Notre-Dame Cathedral and the modernity of the Pompidou Centre creates a cityscape that seamlessly blends the old with the new. Paris invites you to embrace its cultural richness, indulge in world-class cuisine, and stroll through picturesque gardens like the Tuileries. In Paris, every step is a poetic journey through art, history, and the quintessential charm of a city that has inspired generations.",
-        "coverImg": "/images/paris/paris1.jpg",
-        "sliders":[
-            {"slideImg":"/images/paris/paris1.jpg"},
-            {"slideImg":"/images/paris/paris2.jpg"},
-            {"slideImg":"/images/paris/paris2.jpg"}
-        ]
-    },
+{
+    "trips":[
 
-    {
-        "id": "2",
-        "city": "London",
-        "country": "United Kingdom",
-        "continent": "Europe",
-        "currency": "British Pound",
-        "type": "city",
-        "price": "3",
-        "checkIn": "09-06-2023",
-        "checkOut": "14-06-2023",
-        "latitude": "51.50853",
-        "longitude": "-0.12574",
-        "weatherName": "london",
-        "summaryTitle": "London: Where Tradition Meets Modern Marvels",
-        "summaryText": "London, a city that breathes history and innovation, offers a captivating blend of iconic landmarks, cultural richness, and contemporary flair. From the majestic Tower Bridge to the royal elegance of Buckingham Palace, every corner tells a story. The West End's vibrant theaters and the eclectic street life of Camden Market showcase the city's dynamic spirit. With its world-class museums, diverse culinary scene, and lush parks like Hyde Park, London invites exploration at every turn. In this global metropolis, tradition and trend intertwine, creating an unparalleled experience for every visitor.",
-        "coverImg": "/images/london/london1.jpg",
-        "sliders":[
-            {"slideImg":"/images/london/london1.jpg"},
-            {"slideImg":"/images/london/london2.jpg"},
-            {"slideImg":"/images/london/london3.jpg"}
-        ]
-    },
+        {
+            "id": "1",
+            "city": "Paris",
+            "country": "France",
+            "continent": "Europe",
+            "continentImg": "/images/Europe.jpg",
+            "currency": "Euro",
+            "type": "city",
+            "price": "2",
+            "checkIn": "14-05-2009",
+            "checkOut": "18-05-2009",
+            "latitude": "48.85341",
+            "longitude": "2.3488",
+            "weatherName": "paris",
+            "summaryTitle": "City of Light Magic: Exploring the Charms of Paris",
+            "summaryText": "Paris, the City of Light, captivates visitors with its timeless allure and enchanting beauty. From the iconic Eiffel Tower standing tall against the skyline to the charming cobblestone streets of Montmartre, every corner exudes a romantic and artistic ambiance. Renowned museums like the Louvre and Musée d'Orsay house priceless treasures, while the Seine River gracefully winds its way through the heart of the city. Parisian cafes beckon with the promise of leisurely moments spent savoring exquisite pastries and aromatic coffee. The juxtaposition of historic landmarks like Notre-Dame Cathedral and the modernity of the Pompidou Centre creates a cityscape that seamlessly blends the old with the new. Paris invites you to embrace its cultural richness, indulge in world-class cuisine, and stroll through picturesque gardens like the Tuileries. In Paris, every step is a poetic journey through art, history, and the quintessential charm of a city that has inspired generations.",
+            "coverImg": "/images/paris/paris1.jpg",
+            "sliders":[
+                {"slideImg":"/images/paris/paris1.jpg"},
+                {"slideImg":"/images/paris/paris2.jpg"},
+                {"slideImg":"/images/paris/paris2.jpg"}
+            ]
+        },
 
-    {
-        "id": "3",
-        "city": "Rome",
-        "country": "Italy",
-        "continent": "Europe",
-        "currency": "Euro",
-        "type": "city",
-        "price": "2",
-        "checkIn": "02-03-2015",
-        "checkOut": "09-03-2015",
-        "latitude": "41.89193",
-        "longitude": "12.51133",
-        "weatherName": "rome",
-        "summaryTitle": "Eternal Charm: Exploring the Timeless Wonders of Rome",
-        "summaryText": "Visiting Rome is a journey through time and culture, where ancient wonders coexist with the vibrant pulse of modern Italian life. The Colosseum stands as a testament to the grandeur of the Roman Empire, while the historic charm of the Roman Forum invites reflection on centuries past. Vatican City, with St. Peter's Basilica and the Sistine Chapel, is a pilgrimage for art and spirituality. Wandering through cobbled streets, one encounters the romance of the Trevi Fountain and the architectural marvels of the Pantheon. Roman trattorias beckon with the promise of authentic pasta and rich espresso. In Rome, each step unveils layers of history, art, and the timeless allure of la dolce vita.",
-        "coverImg": "/images/rome/rome1.jpg",
-        "sliders":[
-            {"slideImg":"/images/rome/rome1.jpg"},
-            {"slideImg":"/images/rome/rome2.jpg"},
-            {"slideImg":"/images/rome/rome3.jpg"}
-        ]
-    },
+        {
+            "id": "2",
+            "city": "London",
+            "country": "United Kingdom",
+            "continent": "Europe",
+            "currency": "British Pound",
+            "type": "city",
+            "price": "3",
+            "checkIn": "09-06-2023",
+            "checkOut": "14-06-2023",
+            "latitude": "51.50853",
+            "longitude": "-0.12574",
+            "weatherName": "london",
+            "summaryTitle": "London: Where Tradition Meets Modern Marvels",
+            "summaryText": "London, a city that breathes history and innovation, offers a captivating blend of iconic landmarks, cultural richness, and contemporary flair. From the majestic Tower Bridge to the royal elegance of Buckingham Palace, every corner tells a story. The West End's vibrant theaters and the eclectic street life of Camden Market showcase the city's dynamic spirit. With its world-class museums, diverse culinary scene, and lush parks like Hyde Park, London invites exploration at every turn. In this global metropolis, tradition and trend intertwine, creating an unparalleled experience for every visitor.",
+            "coverImg": "/images/london/london1.jpg",
+            "sliders":[
+                {"slideImg":"/images/london/london1.jpg"},
+                {"slideImg":"/images/london/london2.jpg"},
+                {"slideImg":"/images/london/london3.jpg"}
+            ]
+        },
 
-    {
-        "id": "4",
-        "city": "Berlin",
-        "country": "Germany",
-        "continent": "Europe",
-        "currency": "Euro",
-        "type": "city",
-        "price": "2",
-        "checkIn": "28-12-2009",
-        "checkOut": "02-01-2010",
-        "latitude": "52.52437",
-        "longitude": "13.41053",
-        "weatherName": "berlin",
-        "summaryTitle": "Berlin: Past, Present, and Creative Pulse",
-        "summaryText": "Visiting Berlin is a journey through a city that seamlessly blends its complex history with a vibrant contemporary spirit. The remnants of the Berlin Wall serve as a powerful reminder of the city's divided past, while the Brandenburg Gate stands tall as a symbol of reunification. Museumsinsel (Museum Island) showcases world-class art and culture, and the innovative architecture of Potsdamer Platz reflects the city's modern renaissance. Berlin's eclectic neighborhoods, like Kreuzberg and Prenzlauer Berg, offer a taste of its diverse and creative atmosphere. The lively street art, bustling markets, and the serene Tiergarten park all contribute to the unique mosaic of Berlin's character. Whether delving into history, enjoying the arts, or savoring the local cuisine, Berlin welcomes visitors with a dynamic blend of the old and the new.",
-        "coverImg": "/images/berlin/berlin1.jpg",
-        "sliders":[
-            {"slideImg":"/images/berlin/berlin1.jpg"},
-            {"slideImg":"/images/berlin/berlin2.jpg"},
-            {"slideImg":"/images/berlin/berlin3.jpg"}
-        ]
-    },
+        {
+            "id": "3",
+            "city": "Rome",
+            "country": "Italy",
+            "continent": "Europe",
+            "currency": "Euro",
+            "type": "city",
+            "price": "2",
+            "checkIn": "02-03-2015",
+            "checkOut": "09-03-2015",
+            "latitude": "41.89193",
+            "longitude": "12.51133",
+            "weatherName": "rome",
+            "summaryTitle": "Eternal Charm: Exploring the Timeless Wonders of Rome",
+            "summaryText": "Visiting Rome is a journey through time and culture, where ancient wonders coexist with the vibrant pulse of modern Italian life. The Colosseum stands as a testament to the grandeur of the Roman Empire, while the historic charm of the Roman Forum invites reflection on centuries past. Vatican City, with St. Peter's Basilica and the Sistine Chapel, is a pilgrimage for art and spirituality. Wandering through cobbled streets, one encounters the romance of the Trevi Fountain and the architectural marvels of the Pantheon. Roman trattorias beckon with the promise of authentic pasta and rich espresso. In Rome, each step unveils layers of history, art, and the timeless allure of la dolce vita.",
+            "coverImg": "/images/rome/rome1.jpg",
+            "sliders":[
+                {"slideImg":"/images/rome/rome1.jpg"},
+                {"slideImg":"/images/rome/rome2.jpg"},
+                {"slideImg":"/images/rome/rome3.jpg"}
+            ]
+        },
 
-    {
-        "id": "5",
-        "city": "New York",
-        "country": "USA",
-        "continent": "North America",
-        "currency": "US Dollar",
-        "type": "city",
-        "price": "2",
-        "checkIn": "20-10-2019",
-        "checkOut": "25-10-2019",
-        "latitude": "40.71427",
-        "longitude": "-74.00597",
-        "weatherName": "newyork",
-        "summaryTitle": "New York: The City that Never Ceases to Amaze",
-        "summaryText": "Visiting New York is a thrilling adventure through a city that pulses with energy and diversity. The iconic skyline, dominated by towering skyscrapers, frames a dynamic urban landscape. From the electric atmosphere of Times Square to the tranquility of Central Park, each neighborhood has its own unique character. World-class museums, Broadway shows, and a culinary scene that spans the globe offer an endless array of experiences. The city's melting pot of cultures is evident in its street life, where food vendors dish out flavors from around the world. In New York, every street corner seems to tell a story, and every visit unveils a new layer of this metropolis that never fails to leave a lasting impression.",
-        "coverImg": "/images/new-york/new-york1.jpg",
-        "sliders":[
-            {"slideImg":"/images/new-york/new-york1.jpg"},
-            {"slideImg":"/images/new-york/new-york2.jpg"},
-            {"slideImg":"/images/new-york/new-york3.jpg"}
-        ]
-    },
+        {
+            "id": "4",
+            "city": "Berlin",
+            "country": "Germany",
+            "continent": "Europe",
+            "currency": "Euro",
+            "type": "city",
+            "price": "2",
+            "checkIn": "28-12-2009",
+            "checkOut": "02-01-2010",
+            "latitude": "52.52437",
+            "longitude": "13.41053",
+            "weatherName": "berlin",
+            "summaryTitle": "Berlin: Past, Present, and Creative Pulse",
+            "summaryText": "Visiting Berlin is a journey through a city that seamlessly blends its complex history with a vibrant contemporary spirit. The remnants of the Berlin Wall serve as a powerful reminder of the city's divided past, while the Brandenburg Gate stands tall as a symbol of reunification. Museumsinsel (Museum Island) showcases world-class art and culture, and the innovative architecture of Potsdamer Platz reflects the city's modern renaissance. Berlin's eclectic neighborhoods, like Kreuzberg and Prenzlauer Berg, offer a taste of its diverse and creative atmosphere. The lively street art, bustling markets, and the serene Tiergarten park all contribute to the unique mosaic of Berlin's character. Whether delving into history, enjoying the arts, or savoring the local cuisine, Berlin welcomes visitors with a dynamic blend of the old and the new.",
+            "coverImg": "/images/berlin/berlin1.jpg",
+            "sliders":[
+                {"slideImg":"/images/berlin/berlin1.jpg"},
+                {"slideImg":"/images/berlin/berlin2.jpg"},
+                {"slideImg":"/images/berlin/berlin3.jpg"}
+            ]
+        },
 
-    {
-        "id": "6",
-        "city": "Miami",
-        "country": "USA",
-        "continent": "North America",
-        "currency": "US Dollar",
-        "type": "city",
-        "price": "3",
-        "checkIn": "10-06-2017",
-        "checkOut": "15-06-2017",
-        "latitude": "25.79065",
-        "longitude": "-80.13005",
-        "weatherName": "miami",
-        "summaryTitle": "Miami: Where Sun, Style, and Culture Collide",
-        "summaryText": "Visiting Miami is a sensory journey through sun-soaked glamour and cultural fusion. The city's vibrant art deco architecture along South Beach sets the stage for a stylish and energetic atmosphere. From the colorful murals of Wynwood Walls to the upscale shops of Bal Harbour, Miami is a visual feast. The rhythm of Latin beats and the sizzle of diverse cuisine reflect the city's multicultural heartbeat. Relax on the pristine sands of Miami Beach or dive into the eclectic neighborhoods like Little Havana, where Cuban coffee and salsa music create an immersive experience. Miami's dynamic blend of beach life, nightlife, and cultural richness makes it a destination where every moment is infused with a zest for life.",
-        "coverImg": "/images/miami/miami1.jpg",
-        "sliders":[
-            {"slideImg":"/images/miami/miami1.jpg"},
-            {"slideImg":"/images/miami/miami2.jpg"},
-            {"slideImg":"/images/miami/miami3.jpg"}
-        ]
-    },
+        {
+            "id": "5",
+            "city": "New York",
+            "country": "USA",
+            "continent": "North America",
+            "currency": "US Dollar",
+            "type": "city",
+            "price": "2",
+            "checkIn": "20-10-2019",
+            "checkOut": "25-10-2019",
+            "latitude": "40.71427",
+            "longitude": "-74.00597",
+            "weatherName": "newyork",
+            "summaryTitle": "New York: The City that Never Ceases to Amaze",
+            "summaryText": "Visiting New York is a thrilling adventure through a city that pulses with energy and diversity. The iconic skyline, dominated by towering skyscrapers, frames a dynamic urban landscape. From the electric atmosphere of Times Square to the tranquility of Central Park, each neighborhood has its own unique character. World-class museums, Broadway shows, and a culinary scene that spans the globe offer an endless array of experiences. The city's melting pot of cultures is evident in its street life, where food vendors dish out flavors from around the world. In New York, every street corner seems to tell a story, and every visit unveils a new layer of this metropolis that never fails to leave a lasting impression.",
+            "coverImg": "/images/new-york/new-york1.jpg",
+            "sliders":[
+                {"slideImg":"/images/new-york/new-york1.jpg"},
+                {"slideImg":"/images/new-york/new-york2.jpg"},
+                {"slideImg":"/images/new-york/new-york3.jpg"}
+            ]
+        },
 
-    {
-        "id": "7",
-        "city": "Chicago",
-        "country": "USA",
-        "continent": "North America",
-        "currency": "US Dollar",
-        "type": "city",
-        "price": "2",
-        "checkIn": "04-03-2014",
-        "checkOut": "09-03-2014",
-        "latitude": "41.85003",
-        "longitude": "-87.65005",
-        "weatherName": "chicago",
-        "summaryTitle": "Chicago: Skyline Splendor and Cultural Harmony",
-        "summaryText": "Visiting Chicago is an exploration of architectural grandeur, cultural richness, and Midwestern charm. The city's iconic skyline, adorned with the towering Willis Tower and John Hancock Center, showcases a blend of historic and modern marvels. The Magnificent Mile beckons with upscale shopping, while Millennium Park captivates with its contemporary art installations and the famous Cloud Gate sculpture. Chicago's deep-rooted musical heritage comes alive in blues clubs and jazz joints, adding a soulful soundtrack to the city's vibrant atmosphere. Strolling along the Navy Pier or taking an architecture boat tour on the Chicago River offers panoramic views of the city's skyline. Whether indulging in deep-dish pizza, exploring world-class museums, or cheering on sports teams with passionate locals, Chicago welcomes visitors with open arms and a dynamic spirit.",
-        "coverImg": "/images/chicago/chicago1.jpg",
-        "sliders":[
-            {"slideImg":"/images/chicago/chicago1.jpg"},
-            {"slideImg":"/images/chicago/chicago2.jpg"},
-            {"slideImg":"/images/chicago/chicago3.jpg"}
-        ]
-    },
+        {
+            "id": "6",
+            "city": "Miami",
+            "country": "USA",
+            "continent": "North America",
+            "currency": "US Dollar",
+            "type": "city",
+            "price": "3",
+            "checkIn": "10-06-2017",
+            "checkOut": "15-06-2017",
+            "latitude": "25.79065",
+            "longitude": "-80.13005",
+            "weatherName": "miami",
+            "summaryTitle": "Miami: Where Sun, Style, and Culture Collide",
+            "summaryText": "Visiting Miami is a sensory journey through sun-soaked glamour and cultural fusion. The city's vibrant art deco architecture along South Beach sets the stage for a stylish and energetic atmosphere. From the colorful murals of Wynwood Walls to the upscale shops of Bal Harbour, Miami is a visual feast. The rhythm of Latin beats and the sizzle of diverse cuisine reflect the city's multicultural heartbeat. Relax on the pristine sands of Miami Beach or dive into the eclectic neighborhoods like Little Havana, where Cuban coffee and salsa music create an immersive experience. Miami's dynamic blend of beach life, nightlife, and cultural richness makes it a destination where every moment is infused with a zest for life.",
+            "coverImg": "/images/miami/miami1.jpg",
+            "sliders":[
+                {"slideImg":"/images/miami/miami1.jpg"},
+                {"slideImg":"/images/miami/miami2.jpg"},
+                {"slideImg":"/images/miami/miami3.jpg"}
+            ]
+        },
 
-    {
-        "id": "8",
-        "city": "Honolulu",
-        "country": "USA",
-        "continent": "North America",
-        "currency": "US Dollar",
-        "type": "beach",
-        "price": "2",
-        "checkIn": "26-10-2019",
-        "checkOut": "02-11-2019",
-        "latitude": "21.30694",
-        "longitude": "-157.85833",
-        "weatherName": "honolulu",
-        "summaryTitle": "Honolulu: A Tropical Oasis of Sun, Surf, and Aloha Vibes",
-        "summaryText": "Visiting Honolulu is a tropical escape to a paradise where natural beauty harmonizes with the Aloha spirit. With its iconic Diamond Head backdrop and palm-fringed beaches like Waikiki, the city is a postcard-perfect destination. The warm embrace of the Pacific Ocean invites visitors to surf or simply bask in the sun. Explore the historic Pearl Harbor, where the USS Arizona Memorial stands as a poignant reminder of World War II. Honolulu's diverse culinary scene, influenced by Hawaiian, Asian, and Pacific Island flavors, offers a delightful journey for the taste buds. The city's laid-back atmosphere, coupled with traditional hula performances and ukulele melodies, creates an enchanting ambiance that captures the essence of island living.",
-        "coverImg": "/images/honolulu/honolulu1.jpg",
-        "sliders":[
-            {"slideImg":"/images/honolulu/honolulu1.jpg"},
-            {"slideImg":"/images/honolulu/honolulu2.jpg"},
-            {"slideImg":"/images/honolulu/honolulu3.jpg"}
-        ]
-    },
+        {
+            "id": "7",
+            "city": "Chicago",
+            "country": "USA",
+            "continent": "North America",
+            "currency": "US Dollar",
+            "type": "city",
+            "price": "2",
+            "checkIn": "04-03-2014",
+            "checkOut": "09-03-2014",
+            "latitude": "41.85003",
+            "longitude": "-87.65005",
+            "weatherName": "chicago",
+            "summaryTitle": "Chicago: Skyline Splendor and Cultural Harmony",
+            "summaryText": "Visiting Chicago is an exploration of architectural grandeur, cultural richness, and Midwestern charm. The city's iconic skyline, adorned with the towering Willis Tower and John Hancock Center, showcases a blend of historic and modern marvels. The Magnificent Mile beckons with upscale shopping, while Millennium Park captivates with its contemporary art installations and the famous Cloud Gate sculpture. Chicago's deep-rooted musical heritage comes alive in blues clubs and jazz joints, adding a soulful soundtrack to the city's vibrant atmosphere. Strolling along the Navy Pier or taking an architecture boat tour on the Chicago River offers panoramic views of the city's skyline. Whether indulging in deep-dish pizza, exploring world-class museums, or cheering on sports teams with passionate locals, Chicago welcomes visitors with open arms and a dynamic spirit.",
+            "coverImg": "/images/chicago/chicago1.jpg",
+            "sliders":[
+                {"slideImg":"/images/chicago/chicago1.jpg"},
+                {"slideImg":"/images/chicago/chicago2.jpg"},
+                {"slideImg":"/images/chicago/chicago3.jpg"}
+            ]
+        },
 
-    {
-        "id": "9",
-        "city": "Rio de Janeiro",
-        "country": "Brasil",
-        "continent": "South America",
-        "currency": "Real",
-        "type": "beach",
-        "price": "2",
-        "checkIn": "10-07-2010",
-        "checkOut": "19-07-2010",
-        "latitude": "-22.90642",
-        "longitude": "-43.18223",
-        "weatherName": "riodejaneiro",
-        "summaryTitle": "Rio de Janeiro: Where Samba Rhythms Meet Natural Wonders",
-        "summaryText": "Visiting Rio de Janeiro is an immersive experience in the vibrant rhythm of Brazil, where natural beauty and cultural dynamism converge. The iconic Christ the Redeemer statue watches over the city from atop Corcovado Mountain, providing breathtaking panoramic views of the sprawling metropolis nestled between lush mountains and the sparkling coastline. Copacabana and Ipanema beaches invite relaxation and celebration, where the lively samba beats echo the city's lively spirit. The colorful mosaic of neighborhoods, from the historic streets of Santa Teresa to the bustling markets of Feira Nordestina, showcases Rio's diverse identity. Indulge in the local cuisine, dance to the rhythm of Brazilian music, and witness the spectacle of the annual Carnival, and you'll discover why Rio de Janeiro is a destination that embodies the essence of passion and joy.",
-        "coverImg": "/images/rio-de-janeiro/rio-de-janeiro1.jpg",
-        "sliders":[
-            {"slideImg":"/images/rio-de-janeiro/rio-de-janeiro1.jpg"},
-            {"slideImg":"/images/rio-de-janeiro/rio-de-janeiro2.jpg"},
-            {"slideImg":"/images/rio-de-janeiro/rio-de-janeiro3.jpg"}
-        ]
-    },
+        {
+            "id": "8",
+            "city": "Honolulu",
+            "country": "USA",
+            "continent": "North America",
+            "currency": "US Dollar",
+            "type": "beach",
+            "price": "2",
+            "checkIn": "26-10-2019",
+            "checkOut": "02-11-2019",
+            "latitude": "21.30694",
+            "longitude": "-157.85833",
+            "weatherName": "honolulu",
+            "summaryTitle": "Honolulu: A Tropical Oasis of Sun, Surf, and Aloha Vibes",
+            "summaryText": "Visiting Honolulu is a tropical escape to a paradise where natural beauty harmonizes with the Aloha spirit. With its iconic Diamond Head backdrop and palm-fringed beaches like Waikiki, the city is a postcard-perfect destination. The warm embrace of the Pacific Ocean invites visitors to surf or simply bask in the sun. Explore the historic Pearl Harbor, where the USS Arizona Memorial stands as a poignant reminder of World War II. Honolulu's diverse culinary scene, influenced by Hawaiian, Asian, and Pacific Island flavors, offers a delightful journey for the taste buds. The city's laid-back atmosphere, coupled with traditional hula performances and ukulele melodies, creates an enchanting ambiance that captures the essence of island living.",
+            "coverImg": "/images/honolulu/honolulu1.jpg",
+            "sliders":[
+                {"slideImg":"/images/honolulu/honolulu1.jpg"},
+                {"slideImg":"/images/honolulu/honolulu2.jpg"},
+                {"slideImg":"/images/honolulu/honolulu3.jpg"}
+            ]
+        },
 
-    {
-        "id": "10",
-        "city": "Natal",
-        "country": "Brasil",
-        "continent": "South America",
-        "currency": "Real",
-        "type": "beach",
-        "price": "1",
-        "checkIn": "15-08-2006",
-        "checkOut": "30-08-2006",
-        "latitude": "-5.795",
-        "longitude": "-35.20944",
-        "weatherName": "natal",
-        "summaryTitle": "Natal: Sun-soaked Serenity and Coastal Adventures in Brazil",
-        "summaryText": "Visiting Natal in Brazil promises a sun-soaked escape to a coastal paradise. Known for its sprawling sand dunes, Natal offers unique experiences like buggy rides along the Genipabu Lagoon and camel treks through the vast landscapes. The iconic Morro do Careca dune graces the skyline of Ponta Negra beach, inviting visitors to relax in its golden sands. The city's rich cultural heritage is evident in the historic Forte dos Reis Magos, a fortress that has guarded the coastline for centuries. As the 'City of Sun,' Natal lives up to its name with warm temperatures year-round, making it an ideal destination for those seeking a blend of natural beauty, outdoor adventure, and Brazilian hospitality.",
-        "coverImg": "/images/natal/natal1.jpg",
-        "sliders":[
-            {"slideImg":"/images/natal/natal1.jpg"},
-            {"slideImg":"/images/natal/natal2.jpg"},
-            {"slideImg":"/images/natal/natal3.jpg"}
-        ]
-    },
+        {
+            "id": "9",
+            "city": "Rio de Janeiro",
+            "country": "Brasil",
+            "continent": "South America",
+            "currency": "Real",
+            "type": "beach",
+            "price": "2",
+            "checkIn": "10-07-2010",
+            "checkOut": "19-07-2010",
+            "latitude": "-22.90642",
+            "longitude": "-43.18223",
+            "weatherName": "riodejaneiro",
+            "summaryTitle": "Rio de Janeiro: Where Samba Rhythms Meet Natural Wonders",
+            "summaryText": "Visiting Rio de Janeiro is an immersive experience in the vibrant rhythm of Brazil, where natural beauty and cultural dynamism converge. The iconic Christ the Redeemer statue watches over the city from atop Corcovado Mountain, providing breathtaking panoramic views of the sprawling metropolis nestled between lush mountains and the sparkling coastline. Copacabana and Ipanema beaches invite relaxation and celebration, where the lively samba beats echo the city's lively spirit. The colorful mosaic of neighborhoods, from the historic streets of Santa Teresa to the bustling markets of Feira Nordestina, showcases Rio's diverse identity. Indulge in the local cuisine, dance to the rhythm of Brazilian music, and witness the spectacle of the annual Carnival, and you'll discover why Rio de Janeiro is a destination that embodies the essence of passion and joy.",
+            "coverImg": "/images/rio-de-janeiro/rio-de-janeiro1.jpg",
+            "sliders":[
+                {"slideImg":"/images/rio-de-janeiro/rio-de-janeiro1.jpg"},
+                {"slideImg":"/images/rio-de-janeiro/rio-de-janeiro2.jpg"},
+                {"slideImg":"/images/rio-de-janeiro/rio-de-janeiro3.jpg"}
+            ]
+        },
 
-    {
-        "id": "11",
-        "city": "São Paulo",
-        "country": "Brasil",
-        "continent": "South America",
-        "currency": "Real",
-        "type": "city",
-        "price": "2",
-        "checkIn": "01-06-2020",
-        "checkOut": "25-06-2020",
-        "latitude": "-23.5475",
-        "longitude": "-46.63611",
-        "weatherName": "saopaulo",
-        "summaryTitle": "São Paulo: Urban Marvels, Culinary Delights, and Cultural Diversity",
-        "summaryText": "Visiting São Paulo immerses you in the pulsating heart of Brazil's economic and cultural powerhouse. This sprawling metropolis boasts a dynamic blend of towering skyscrapers, diverse neighborhoods, and a thriving arts scene. A stroll down Avenida Paulista reveals the city's cosmopolitan vibe, with museums, theaters, and trendy boutiques lining the bustling boulevard. São Paulo's gastronomic scene is a world unto itself, offering everything from traditional Brazilian fare to international culinary delights. The vibrant street art in neighborhoods like Vila Madalena adds a colorful backdrop to the urban landscape. Whether exploring the historic district of São Paulo's downtown or enjoying the green oasis of Ibirapuera Park, the city unfolds as a multifaceted tapestry of culture, commerce, and creativity.",
-        "coverImg": "/images/sao-paulo/sao-paulo1.jpg",
-        "sliders":[
-            {"slideImg":"/images/sao-paulo/sao-paulo1.jpg"},
-            {"slideImg":"/images/sao-paulo/sao-paulo2.jpg"},
-            {"slideImg":"/images/sao-paulo/sao-paulo3.jpg"}
-        ]
-    },
-    
-    {
-        "id": "12",
-        "city": "Lima",
-        "country": "Peru",
-        "continent": "South America",
-        "currency": "Peruvian Soles",
-        "type": "city",
-        "price": "1",
-        "checkIn": "07-06-2012",
-        "checkOut": "15-06-2012",
-        "latitude": "-12.04318",
-        "longitude": "-77.02824",
-        "weatherName": "lima",
-        "summaryTitle": "Lima Unwrapped: History, Coastal Beauty, Culinary Mastery",
-        "summaryText": "Visiting Lima, the capital of Peru, is a captivating exploration of history, culture, and culinary excellence. The city's colonial heritage is evident in its historic center, where ornate churches and grand plazas harken back to a bygone era. The Larco Museum showcases pre-Columbian artifacts, providing a glimpse into Peru's ancient civilizations. Lima's coastal cliffs offer breathtaking views of the Pacific Ocean, while the bustling districts of Miraflores and Barranco pulse with contemporary energy, featuring trendy shops, art galleries, and vibrant nightlife. Peruvian cuisine takes center stage in Lima, with a diverse array of flavors from ceviche to anticuchos, making it a paradise for food enthusiasts. Lima, with its fusion of past and present, invites travelers to savor the essence of Peru's cultural richness.",
-        "coverImg": "/images/lima/lima1.jpg",
-        "sliders":[
-            {"slideImg":"/images/lima/lima1.jpg"},
-            {"slideImg":"/images/lima/lima2.jpg"},
-            {"slideImg":"/images/lima/lima3.jpg"}
-        ]
-    },
+        {
+            "id": "10",
+            "city": "Natal",
+            "country": "Brasil",
+            "continent": "South America",
+            "currency": "Real",
+            "type": "beach",
+            "price": "1",
+            "checkIn": "15-08-2006",
+            "checkOut": "30-08-2006",
+            "latitude": "-5.795",
+            "longitude": "-35.20944",
+            "weatherName": "natal",
+            "summaryTitle": "Natal: Sun-soaked Serenity and Coastal Adventures in Brazil",
+            "summaryText": "Visiting Natal in Brazil promises a sun-soaked escape to a coastal paradise. Known for its sprawling sand dunes, Natal offers unique experiences like buggy rides along the Genipabu Lagoon and camel treks through the vast landscapes. The iconic Morro do Careca dune graces the skyline of Ponta Negra beach, inviting visitors to relax in its golden sands. The city's rich cultural heritage is evident in the historic Forte dos Reis Magos, a fortress that has guarded the coastline for centuries. As the 'City of Sun,' Natal lives up to its name with warm temperatures year-round, making it an ideal destination for those seeking a blend of natural beauty, outdoor adventure, and Brazilian hospitality.",
+            "coverImg": "/images/natal/natal1.jpg",
+            "sliders":[
+                {"slideImg":"/images/natal/natal1.jpg"},
+                {"slideImg":"/images/natal/natal2.jpg"},
+                {"slideImg":"/images/natal/natal3.jpg"}
+            ]
+        },
 
-    {
-        "id": "13",
-        "city": "Cairo",
-        "country": "Egypt",
-        "continent": "Africa",
-        "currency": "Egyptian Pound",
-        "type": "city",
-        "price": "1",
-        "checkIn": "16-09-2017",
-        "checkOut": "23-09-2017",
-        "latitude": "30.06263",
-        "longitude": "31.24967",
-        "weatherName": "cairo",
-        "summaryTitle": "Cairo: Echoes of Ancient Splendors and Modern Vibrancy",
-        "summaryText": "Visiting Cairo is a captivating journey into the heart of Egypt's rich history and vibrant culture. The city's iconic landmarks, such as the pyramids of Giza and the Sphinx, stand as enduring symbols of ancient civilization. The bustling Khan El Khalili bazaar immerses visitors in the lively atmosphere of traditional markets, offering a kaleidoscope of colors and sounds. Cairo's Museum of Egyptian Antiquities houses an unparalleled collection of artifacts, including the treasures of Tutankhamun. Along the Nile River, the city's juxtaposition of historic mosques and modern architecture creates a dynamic skyline. Cairo's energy is palpable in its lively streets, aromatic food stalls, and the warm hospitality of its people, making every moment a unique exploration of Egypt's timeless allure.",
-        "coverImg": "/images/cairo/cairo1.jpg",
-        "sliders":[
-            {"slideImg":"/images/cairo/cairo1.jpg"},
-            {"slideImg":"/images/cairo/cairo2.jpg"},
-            {"slideImg":"/images/cairo/cairo3.jpg"}
-        ]
-    },
+        {
+            "id": "11",
+            "city": "São Paulo",
+            "country": "Brasil",
+            "continent": "South America",
+            "currency": "Real",
+            "type": "city",
+            "price": "2",
+            "checkIn": "01-06-2020",
+            "checkOut": "25-06-2020",
+            "latitude": "-23.5475",
+            "longitude": "-46.63611",
+            "weatherName": "saopaulo",
+            "summaryTitle": "São Paulo: Urban Marvels, Culinary Delights, and Cultural Diversity",
+            "summaryText": "Visiting São Paulo immerses you in the pulsating heart of Brazil's economic and cultural powerhouse. This sprawling metropolis boasts a dynamic blend of towering skyscrapers, diverse neighborhoods, and a thriving arts scene. A stroll down Avenida Paulista reveals the city's cosmopolitan vibe, with museums, theaters, and trendy boutiques lining the bustling boulevard. São Paulo's gastronomic scene is a world unto itself, offering everything from traditional Brazilian fare to international culinary delights. The vibrant street art in neighborhoods like Vila Madalena adds a colorful backdrop to the urban landscape. Whether exploring the historic district of São Paulo's downtown or enjoying the green oasis of Ibirapuera Park, the city unfolds as a multifaceted tapestry of culture, commerce, and creativity.",
+            "coverImg": "/images/sao-paulo/sao-paulo1.jpg",
+            "sliders":[
+                {"slideImg":"/images/sao-paulo/sao-paulo1.jpg"},
+                {"slideImg":"/images/sao-paulo/sao-paulo2.jpg"},
+                {"slideImg":"/images/sao-paulo/sao-paulo3.jpg"}
+            ]
+        },
+        
+        {
+            "id": "12",
+            "city": "Lima",
+            "country": "Peru",
+            "continent": "South America",
+            "currency": "Peruvian Soles",
+            "type": "city",
+            "price": "1",
+            "checkIn": "07-06-2012",
+            "checkOut": "15-06-2012",
+            "latitude": "-12.04318",
+            "longitude": "-77.02824",
+            "weatherName": "lima",
+            "summaryTitle": "Lima Unwrapped: History, Coastal Beauty, Culinary Mastery",
+            "summaryText": "Visiting Lima, the capital of Peru, is a captivating exploration of history, culture, and culinary excellence. The city's colonial heritage is evident in its historic center, where ornate churches and grand plazas harken back to a bygone era. The Larco Museum showcases pre-Columbian artifacts, providing a glimpse into Peru's ancient civilizations. Lima's coastal cliffs offer breathtaking views of the Pacific Ocean, while the bustling districts of Miraflores and Barranco pulse with contemporary energy, featuring trendy shops, art galleries, and vibrant nightlife. Peruvian cuisine takes center stage in Lima, with a diverse array of flavors from ceviche to anticuchos, making it a paradise for food enthusiasts. Lima, with its fusion of past and present, invites travelers to savor the essence of Peru's cultural richness.",
+            "coverImg": "/images/lima/lima1.jpg",
+            "sliders":[
+                {"slideImg":"/images/lima/lima1.jpg"},
+                {"slideImg":"/images/lima/lima2.jpg"},
+                {"slideImg":"/images/lima/lima3.jpg"}
+            ]
+        },
 
-    {
-        "id": "14",
-        "city": "Marrakesh",
-        "country": "Morocco",
-        "continent": "Africa",
-        "currency": "Moroccan Dirham",
-        "type": "city",
-        "price": "1",
-        "checkIn": "11-02-2010",
-        "checkOut": "28-02-2010",
-        "latitude": "31.63416",
-        "longitude": "-7.99994",
-        "weatherName": "marrakesh",
-        "summaryTitle": "Marrakesh: Colors, Culture, Charms",
-        "summaryText": "Visiting Marrakesh is a sensory adventure through the enchanting landscapes and vibrant markets of Morocco. The historic medina, with its labyrinthine alleys and bustling souks, reveals the city's rich cultural tapestry. The iconic Jardin Majorelle offers a tranquil oasis of exotic plants and vibrant blue architecture. The lively Djemaa el Fna square comes alive with the rhythmic beats of musicians, the aromatic scents of spices, and the vibrant colors of traditional textiles. Majestic palaces like the Bahia Palace showcase intricate Moroccan craftsmanship, while the Koutoubia Mosque's minaret graces the skyline. Marrakesh is a feast for the senses, where every corner holds the promise of discovery amid the allure of North African mystique.",
-        "coverImg": "/images/marrakesh/marrakesh1.jpg",
-        "sliders":[
-            {"slideImg":"/images/marrakesh/marrakesh1.jpg"},
-            {"slideImg":"/images/marrakesh/marrakesh2.jpg"},
-            {"slideImg":"/images/marrakesh/marrakesh3.jpg"}
-        ]
-    },
+        {
+            "id": "13",
+            "city": "Cairo",
+            "country": "Egypt",
+            "continent": "Africa",
+            "currency": "Egyptian Pound",
+            "type": "city",
+            "price": "1",
+            "checkIn": "16-09-2017",
+            "checkOut": "23-09-2017",
+            "latitude": "30.06263",
+            "longitude": "31.24967",
+            "weatherName": "cairo",
+            "summaryTitle": "Cairo: Echoes of Ancient Splendors and Modern Vibrancy",
+            "summaryText": "Visiting Cairo is a captivating journey into the heart of Egypt's rich history and vibrant culture. The city's iconic landmarks, such as the pyramids of Giza and the Sphinx, stand as enduring symbols of ancient civilization. The bustling Khan El Khalili bazaar immerses visitors in the lively atmosphere of traditional markets, offering a kaleidoscope of colors and sounds. Cairo's Museum of Egyptian Antiquities houses an unparalleled collection of artifacts, including the treasures of Tutankhamun. Along the Nile River, the city's juxtaposition of historic mosques and modern architecture creates a dynamic skyline. Cairo's energy is palpable in its lively streets, aromatic food stalls, and the warm hospitality of its people, making every moment a unique exploration of Egypt's timeless allure.",
+            "coverImg": "/images/cairo/cairo1.jpg",
+            "sliders":[
+                {"slideImg":"/images/cairo/cairo1.jpg"},
+                {"slideImg":"/images/cairo/cairo2.jpg"},
+                {"slideImg":"/images/cairo/cairo3.jpg"}
+            ]
+        },
 
-    {
-        "id": "15",
-        "city": "Cape Town",
-        "country": "South Africa",
-        "continent": "Africa",
-        "currency": "South African Rand",
-        "type": "city",
-        "price": "2",
-        "checkIn": "14-01-2008",
-        "checkOut": "22-01-2008",
-        "latitude": "-33.92584",
-        "longitude": "18.42322",
-        "weatherName": "capetown",
-        "summaryTitle": "Cape Town: Nature's Charm, Cultural Harmony",
-        "summaryText": "Visiting Cape Town is an exploration of breathtaking landscapes, cultural diversity, and vibrant city life. Nestled between the iconic Table Mountain and the Atlantic Ocean, the city offers panoramic views from every angle. The historic Robben Island, where Nelson Mandela was imprisoned, stands as a testament to the triumph of justice. The colorful Bo-Kaap neighborhood adds a lively touch with its vibrant houses and rich Malay heritage. The Cape Winelands beckon with picturesque vineyards and world-class wines. Cape Town's beaches, like Camps Bay and Clifton, invite relaxation against a backdrop of stunning sunsets. With a dynamic arts scene, eclectic markets, and a culinary landscape that reflects the city's fusion of cultures, Cape Town captivates visitors with its blend of natural beauty and urban charm.",
-        "coverImg": "/images/cape-town/cape-town1.jpg",
-        "sliders":[
-            {"slideImg":"/images/cape-town/cape-town1.jpg"},
-            {"slideImg":"/images/cape-town/cape-town2.jpg"},
-            {"slideImg":"/images/cape-town/cape-town3.jpg"}
-        ]
-    },
+        {
+            "id": "14",
+            "city": "Marrakesh",
+            "country": "Morocco",
+            "continent": "Africa",
+            "currency": "Moroccan Dirham",
+            "type": "city",
+            "price": "1",
+            "checkIn": "11-02-2010",
+            "checkOut": "28-02-2010",
+            "latitude": "31.63416",
+            "longitude": "-7.99994",
+            "weatherName": "marrakesh",
+            "summaryTitle": "Marrakesh: Colors, Culture, Charms",
+            "summaryText": "Visiting Marrakesh is a sensory adventure through the enchanting landscapes and vibrant markets of Morocco. The historic medina, with its labyrinthine alleys and bustling souks, reveals the city's rich cultural tapestry. The iconic Jardin Majorelle offers a tranquil oasis of exotic plants and vibrant blue architecture. The lively Djemaa el Fna square comes alive with the rhythmic beats of musicians, the aromatic scents of spices, and the vibrant colors of traditional textiles. Majestic palaces like the Bahia Palace showcase intricate Moroccan craftsmanship, while the Koutoubia Mosque's minaret graces the skyline. Marrakesh is a feast for the senses, where every corner holds the promise of discovery amid the allure of North African mystique.",
+            "coverImg": "/images/marrakesh/marrakesh1.jpg",
+            "sliders":[
+                {"slideImg":"/images/marrakesh/marrakesh1.jpg"},
+                {"slideImg":"/images/marrakesh/marrakesh2.jpg"},
+                {"slideImg":"/images/marrakesh/marrakesh3.jpg"}
+            ]
+        },
 
-    {
-        "id": "16",
-        "city": "Zanzibar",
-        "country": "Tanzania",
-        "continent": "Africa",
-        "currency": "Tanzanian Shilling",
-        "type": "beach",
-        "price": "1",
-        "checkIn": "23-07-2014",
-        "checkOut": "30-07-2014",
-        "latitude": "-6.16394",
-        "longitude": "39.19793",
-        "weatherName": "zanzibar",
-        "summaryTitle": "Zanzibar: Spice, Sands, and Swahili Charm",
-        "summaryText": "Visiting Zanzibar is stepping into a tropical paradise where pristine beaches, rich history, and a vibrant culture converge. The UNESCO-listed Stone Town, with its narrow winding streets and historic architecture, reflects the island's unique blend of African, Arab, and Indian influences. The spice farms showcase Zanzibar's nickname, the 'Spice Island,' with aromatic plantations of cloves, vanilla, and cinnamon. Turquoise waters and powdery white sands await at beaches like Nungwi and Kendwa, offering a perfect setting for relaxation or water activities. The coral reefs surrounding the island provide incredible opportunities for snorkeling and diving. Zanzibar, with its warm hospitality and Swahili charm, invites visitors to explore a destination where every moment feels like a journey through an exotic dream.",
-        "coverImg": "/images/zanzibar/zanzibar1.jpg",
-        "sliders":[
-            {"slideImg":"/images/zanzibar/zanzibar1.jpg"},
-            {"slideImg":"/images/zanzibar/zanzibar2.jpg"},
-            {"slideImg":"/images/zanzibar/zanzibar3.jpg"}
-        ]
-    },
+        {
+            "id": "15",
+            "city": "Cape Town",
+            "country": "South Africa",
+            "continent": "Africa",
+            "currency": "South African Rand",
+            "type": "city",
+            "price": "2",
+            "checkIn": "14-01-2008",
+            "checkOut": "22-01-2008",
+            "latitude": "-33.92584",
+            "longitude": "18.42322",
+            "weatherName": "capetown",
+            "summaryTitle": "Cape Town: Nature's Charm, Cultural Harmony",
+            "summaryText": "Visiting Cape Town is an exploration of breathtaking landscapes, cultural diversity, and vibrant city life. Nestled between the iconic Table Mountain and the Atlantic Ocean, the city offers panoramic views from every angle. The historic Robben Island, where Nelson Mandela was imprisoned, stands as a testament to the triumph of justice. The colorful Bo-Kaap neighborhood adds a lively touch with its vibrant houses and rich Malay heritage. The Cape Winelands beckon with picturesque vineyards and world-class wines. Cape Town's beaches, like Camps Bay and Clifton, invite relaxation against a backdrop of stunning sunsets. With a dynamic arts scene, eclectic markets, and a culinary landscape that reflects the city's fusion of cultures, Cape Town captivates visitors with its blend of natural beauty and urban charm.",
+            "coverImg": "/images/cape-town/cape-town1.jpg",
+            "sliders":[
+                {"slideImg":"/images/cape-town/cape-town1.jpg"},
+                {"slideImg":"/images/cape-town/cape-town2.jpg"},
+                {"slideImg":"/images/cape-town/cape-town3.jpg"}
+            ]
+        },
 
-    {
-        "id": "17",
-        "city": "New Delhi",
-        "country": "India",
-        "continent": "Asia",
-        "currency": "Indian Rupee",
-        "type": "city",
-        "price": "1",
-        "checkIn": "04-03-2011",
-        "checkOut": "10-03-2011",
-        "latitude": "28.63576",
-        "longitude": "77.22445",
-        "weatherName": "newdelhi",
-        "summaryTitle": "New Delhi: Heritage Echoes, Modern Flourish, Culinary Symphony",
-        "summaryText": "Visiting New Delhi is an immersion into the heart of India's rich history, vibrant culture, and bustling modernity. The city's iconic landmarks, such as the historic Red Fort and India Gate, narrate tales of bygone eras. The UNESCO-listed Humayun's Tomb and Qutub Minar showcase architectural marvels that stand as testaments to the country's diverse heritage. Old Delhi's chaotic yet charming streets, with their bustling markets and centuries-old mosques, offer a glimpse into traditional life. In contrast, New Delhi's wide boulevards and government buildings reflect the city's more contemporary face. Indulge in the diverse flavors of Indian cuisine, from street food delights to fine dining experiences. New Delhi, with its fusion of the ancient and the modern, promises a captivating journey through the soul of India.",
-        "coverImg": "/images/new-delhi/new-delhi1.jpg",
-        "sliders":[
-            {"slideImg":"/images/new-delhi/new-delhi1.jpg"},
-            {"slideImg":"/images/new-delhi/new-delhi2.jpg"},
-            {"slideImg":"/images/new-delhi/new-delhi3.jpg"}
-        ]
-    },
+        {
+            "id": "16",
+            "city": "Zanzibar",
+            "country": "Tanzania",
+            "continent": "Africa",
+            "currency": "Tanzanian Shilling",
+            "type": "beach",
+            "price": "1",
+            "checkIn": "23-07-2014",
+            "checkOut": "30-07-2014",
+            "latitude": "-6.16394",
+            "longitude": "39.19793",
+            "weatherName": "zanzibar",
+            "summaryTitle": "Zanzibar: Spice, Sands, and Swahili Charm",
+            "summaryText": "Visiting Zanzibar is stepping into a tropical paradise where pristine beaches, rich history, and a vibrant culture converge. The UNESCO-listed Stone Town, with its narrow winding streets and historic architecture, reflects the island's unique blend of African, Arab, and Indian influences. The spice farms showcase Zanzibar's nickname, the 'Spice Island,' with aromatic plantations of cloves, vanilla, and cinnamon. Turquoise waters and powdery white sands await at beaches like Nungwi and Kendwa, offering a perfect setting for relaxation or water activities. The coral reefs surrounding the island provide incredible opportunities for snorkeling and diving. Zanzibar, with its warm hospitality and Swahili charm, invites visitors to explore a destination where every moment feels like a journey through an exotic dream.",
+            "coverImg": "/images/zanzibar/zanzibar1.jpg",
+            "sliders":[
+                {"slideImg":"/images/zanzibar/zanzibar1.jpg"},
+                {"slideImg":"/images/zanzibar/zanzibar2.jpg"},
+                {"slideImg":"/images/zanzibar/zanzibar3.jpg"}
+            ]
+        },
 
-    {
-        "id": "18",
-        "city": "Tokio",
-        "country": "Japan",
-        "continent": "Asia",
-        "currency": "Japanese Yen",
-        "type": "city",
-        "price": "3",
-        "checkIn": "04-03-2020",
-        "checkOut": "10-03-2020",
-        "latitude": "35.6895",
-        "longitude": "139.69171",
-        "weatherName": "tokio",
-        "summaryTitle": "Tokyo: Tradition and Innovation Unveiled",
-        "summaryText": "Visiting Tokyo is a voyage into a captivating blend of tradition and cutting-edge innovation. The cityscape, adorned with towering skyscrapers and historic temples, tells a tale of Japan's dynamic evolution. Tokyo's iconic districts, from the vibrant Shibuya Crossing to the electronic wonderland of Akihabara, showcase its modern energy. Amid the urban hustle, serene havens like Ueno Park and Meiji Shrine offer moments of tranquility. Dive into the world of sushi at Tsukiji Fish Market or savor traditional tea ceremonies in Asakusa. Tokyo is a city where ancient rituals coexist with futuristic trends, creating an electrifying atmosphere that makes every visit an exploration of Japan's cultural kaleidoscope.",
-        "coverImg": "/images/tokio/tokio1.jpg",
-        "sliders":[
-            {"slideImg":"/images/tokio/tokio1.jpg"},
-            {"slideImg":"/images/tokio/tokio2.jpg"},
-            {"slideImg":"/images/tokio/tokio3.jpg"}
-        ]
-    },
+        {
+            "id": "17",
+            "city": "New Delhi",
+            "country": "India",
+            "continent": "Asia",
+            "currency": "Indian Rupee",
+            "type": "city",
+            "price": "1",
+            "checkIn": "04-03-2011",
+            "checkOut": "10-03-2011",
+            "latitude": "28.63576",
+            "longitude": "77.22445",
+            "weatherName": "newdelhi",
+            "summaryTitle": "New Delhi: Heritage Echoes, Modern Flourish, Culinary Symphony",
+            "summaryText": "Visiting New Delhi is an immersion into the heart of India's rich history, vibrant culture, and bustling modernity. The city's iconic landmarks, such as the historic Red Fort and India Gate, narrate tales of bygone eras. The UNESCO-listed Humayun's Tomb and Qutub Minar showcase architectural marvels that stand as testaments to the country's diverse heritage. Old Delhi's chaotic yet charming streets, with their bustling markets and centuries-old mosques, offer a glimpse into traditional life. In contrast, New Delhi's wide boulevards and government buildings reflect the city's more contemporary face. Indulge in the diverse flavors of Indian cuisine, from street food delights to fine dining experiences. New Delhi, with its fusion of the ancient and the modern, promises a captivating journey through the soul of India.",
+            "coverImg": "/images/new-delhi/new-delhi1.jpg",
+            "sliders":[
+                {"slideImg":"/images/new-delhi/new-delhi1.jpg"},
+                {"slideImg":"/images/new-delhi/new-delhi2.jpg"},
+                {"slideImg":"/images/new-delhi/new-delhi3.jpg"}
+            ]
+        },
 
-    {
-        "id": "19",
-        "city": "Kyoto",
-        "country": "Japan",
-        "continent": "Asia",
-        "currency": "Japanese Yen",
-        "type": "city",
-        "price": "2",
-        "checkIn": "11-03-2020",
-        "checkOut": "15-03-2020",
-        "latitude": "35.02107",
-        "longitude": "135.75385",
-        "weatherName": "kyoto",
-        "summaryTitle": "Kyoto: Timeless Tranquility Amidst Tradition and Beauty",
-        "summaryText": "Visiting Kyoto is a poetic journey into Japan's cultural heart, where ancient traditions harmonize with timeless beauty. The city's UNESCO-listed temples, such as Kinkaku-ji and Fushimi Inari Taisha, stand as exquisite testaments to its rich history. Geisha gracefully traverse historic Gion, while traditional tea houses invite contemplation. Kyoto's enchanting bamboo groves and serene gardens, like those at Ryoan-ji, offer moments of tranquility. The allure of kaiseki dining, cherry blossoms in Maruyama Park, and the timeless art of the tea ceremony define Kyoto's refined charm. In this city, where every street whispers of history, each step becomes a dance between past and present.",
-        "coverImg": "/images/kyoto/kyoto1.jpg",
-        "sliders":[
-            {"slideImg":"/images/kyoto/kyoto1.jpg"},
-            {"slideImg":"/images/kyoto/kyoto2.jpg"},
-            {"slideImg":"/images/kyoto/kyoto3.jpg"}
-        ]
-    },
+        {
+            "id": "18",
+            "city": "Tokio",
+            "country": "Japan",
+            "continent": "Asia",
+            "currency": "Japanese Yen",
+            "type": "city",
+            "price": "3",
+            "checkIn": "04-03-2020",
+            "checkOut": "10-03-2020",
+            "latitude": "35.6895",
+            "longitude": "139.69171",
+            "weatherName": "tokio",
+            "summaryTitle": "Tokyo: Tradition and Innovation Unveiled",
+            "summaryText": "Visiting Tokyo is a voyage into a captivating blend of tradition and cutting-edge innovation. The cityscape, adorned with towering skyscrapers and historic temples, tells a tale of Japan's dynamic evolution. Tokyo's iconic districts, from the vibrant Shibuya Crossing to the electronic wonderland of Akihabara, showcase its modern energy. Amid the urban hustle, serene havens like Ueno Park and Meiji Shrine offer moments of tranquility. Dive into the world of sushi at Tsukiji Fish Market or savor traditional tea ceremonies in Asakusa. Tokyo is a city where ancient rituals coexist with futuristic trends, creating an electrifying atmosphere that makes every visit an exploration of Japan's cultural kaleidoscope.",
+            "coverImg": "/images/tokio/tokio1.jpg",
+            "sliders":[
+                {"slideImg":"/images/tokio/tokio1.jpg"},
+                {"slideImg":"/images/tokio/tokio2.jpg"},
+                {"slideImg":"/images/tokio/tokio3.jpg"}
+            ]
+        },
 
-    {
-        "id": "20",
-        "city": "Seoul",
-        "country": "South Korea",
-        "continent": "Asia",
-        "currency": "South Korean Won",
-        "type": "city",
-        "price": "2",
-        "checkIn": "17-03-2020",
-        "checkOut": "24-03-2020",
-        "latitude": "37.566",
-        "longitude": "126.9784",
-        "weatherName": "seoul",
-        "summaryTitle": "Seoul: Where Past Meets Present in Vibrant Harmony",
-        "summaryText": "Visiting Seoul is a dynamic exploration of South Korea's vibrant past and futuristic present. The city seamlessly blends ancient palaces, like Gyeongbokgung, with modern architecture, seen in the towering skyscrapers of Gangnam. The bustling street markets of Myeongdong offer a sensory feast, while serene temples like Jogyesa provide moments of tranquility. Seoul's innovative spirit is evident in its tech hubs and trendy neighborhoods like Hongdae, known for its art and entertainment scene. Indulge in delectable Korean cuisine, from sizzling barbecue to savory bibimbap. In Seoul, where tradition meets trendsetting, every corner unveils a facet of a city that encapsulates the essence of South Korea's rich cultural heritage and futuristic flair.",
-        "coverImg": "/images/seoul/seoul1.jpg",
-        "sliders":[
-            {"slideImg":"/images/seoul/seoul1.jpg"},
-            {"slideImg":"/images/seoul/seoul2.jpg"},
-            {"slideImg":"/images/seoul/seoul3.jpg"}
-        ]
-    },
+        {
+            "id": "19",
+            "city": "Kyoto",
+            "country": "Japan",
+            "continent": "Asia",
+            "currency": "Japanese Yen",
+            "type": "city",
+            "price": "2",
+            "checkIn": "11-03-2020",
+            "checkOut": "15-03-2020",
+            "latitude": "35.02107",
+            "longitude": "135.75385",
+            "weatherName": "kyoto",
+            "summaryTitle": "Kyoto: Timeless Tranquility Amidst Tradition and Beauty",
+            "summaryText": "Visiting Kyoto is a poetic journey into Japan's cultural heart, where ancient traditions harmonize with timeless beauty. The city's UNESCO-listed temples, such as Kinkaku-ji and Fushimi Inari Taisha, stand as exquisite testaments to its rich history. Geisha gracefully traverse historic Gion, while traditional tea houses invite contemplation. Kyoto's enchanting bamboo groves and serene gardens, like those at Ryoan-ji, offer moments of tranquility. The allure of kaiseki dining, cherry blossoms in Maruyama Park, and the timeless art of the tea ceremony define Kyoto's refined charm. In this city, where every street whispers of history, each step becomes a dance between past and present.",
+            "coverImg": "/images/kyoto/kyoto1.jpg",
+            "sliders":[
+                {"slideImg":"/images/kyoto/kyoto1.jpg"},
+                {"slideImg":"/images/kyoto/kyoto2.jpg"},
+                {"slideImg":"/images/kyoto/kyoto3.jpg"}
+            ]
+        },
 
-    {
-        "id": "21",
-        "city": "Sidney",
-        "country": "Australia",
-        "continent": "Oceania",
-        "currency": "Australian Dollar",
-        "type": "city",
-        "price": "3",
-        "checkIn": "01-08-2007",
-        "checkOut": "14-08-2007",
-        "latitude": "-33.86785",
-        "longitude": "151.20732",
-        "weatherName": "sidney",
-        "summaryTitle": "Sydney: Harbor Elegance, Urban Charms, and Coastal Splendor",
-        "summaryText": "Visiting Sydney is an immersion into the captivating beauty of Australia's harbor city, where iconic landmarks and natural wonders create a stunning backdrop. The Sydney Opera House, with its distinctive sail-like architecture, and the Sydney Harbour Bridge define the city's skyline. Strolling along the picturesque Circular Quay, visitors can enjoy panoramic views of the harbor and the Royal Botanic Garden. Bondi Beach beckons with its golden sands and lively surf culture, while the historic Rocks district offers a glimpse into Sydney's colonial past. The city's diverse neighborhoods, from trendy Surry Hills to eclectic Newtown, showcase a blend of cultures and artistic expressions. Sydney's dynamic arts scene, world-class dining, and outdoor activities make it a destination that effortlessly combines urban sophistication with the laid-back charm of the Australian lifestyle.",
-        "coverImg": "/images/sidney/sidney1.jpg",
-        "sliders":[
-            {"slideImg":"/images/sidney/sidney1.jpg"},
-            {"slideImg":"/images/sidney/sidney2.jpg"},
-            {"slideImg":"/images/sidney/sidney3.jpg"}
-        ]
-    },
+        {
+            "id": "20",
+            "city": "Seoul",
+            "country": "South Korea",
+            "continent": "Asia",
+            "currency": "South Korean Won",
+            "type": "city",
+            "price": "2",
+            "checkIn": "17-03-2020",
+            "checkOut": "24-03-2020",
+            "latitude": "37.566",
+            "longitude": "126.9784",
+            "weatherName": "seoul",
+            "summaryTitle": "Seoul: Where Past Meets Present in Vibrant Harmony",
+            "summaryText": "Visiting Seoul is a dynamic exploration of South Korea's vibrant past and futuristic present. The city seamlessly blends ancient palaces, like Gyeongbokgung, with modern architecture, seen in the towering skyscrapers of Gangnam. The bustling street markets of Myeongdong offer a sensory feast, while serene temples like Jogyesa provide moments of tranquility. Seoul's innovative spirit is evident in its tech hubs and trendy neighborhoods like Hongdae, known for its art and entertainment scene. Indulge in delectable Korean cuisine, from sizzling barbecue to savory bibimbap. In Seoul, where tradition meets trendsetting, every corner unveils a facet of a city that encapsulates the essence of South Korea's rich cultural heritage and futuristic flair.",
+            "coverImg": "/images/seoul/seoul1.jpg",
+            "sliders":[
+                {"slideImg":"/images/seoul/seoul1.jpg"},
+                {"slideImg":"/images/seoul/seoul2.jpg"},
+                {"slideImg":"/images/seoul/seoul3.jpg"}
+            ]
+        },
 
-    {
-        "id": "22",
-        "city": "Perth",
-        "country": "Australia",
-        "continent": "Oceania",
-        "currency": "Australian Dollar",
-        "type": "city",
-        "price": "2",
-        "checkIn": "15-08-2007",
-        "checkOut": "18-08-2007",
-        "latitude": "-31.95224",
-        "longitude": "115.8614",
-        "weatherName": "perth",
-        "summaryTitle": "Perth: Riverside Serenity, Coastal Bliss, and Urban Elegance",
-        "summaryText": "Visiting Perth invites exploration into the laid-back elegance and natural beauty of Australia's western gem. The Swan River gracefully winds through the city, providing a scenic backdrop to the skyline. Kings Park and Botanic Garden offer panoramic views and a serene escape into native flora. Perth's pristine beaches, like Cottesloe and Scarborough, are perfect for sun-drenched relaxation or water activities. The historic port town of Fremantle adds a bohemian touch with its maritime charm and lively markets. The city's cultural scene, from the Perth Cultural Centre to vibrant street art in Northbridge, reflects a fusion of tradition and modernity. Perth, with its warm climate and friendly atmosphere, beckons visitors to savor the unique blend of urban sophistication and natural wonders.",
-        "coverImg": "/images/perth/perth1.jpg",
-        "sliders":[
-            {"slideImg":"/images/perth/perth1.jpg"},
-            {"slideImg":"/images/perth/perth2.jpg"},
-            {"slideImg":"/images/perth/perth3.jpg"}
-        ]
-    },
+        {
+            "id": "21",
+            "city": "Sidney",
+            "country": "Australia",
+            "continent": "Oceania",
+            "currency": "Australian Dollar",
+            "type": "city",
+            "price": "3",
+            "checkIn": "01-08-2007",
+            "checkOut": "14-08-2007",
+            "latitude": "-33.86785",
+            "longitude": "151.20732",
+            "weatherName": "sidney",
+            "summaryTitle": "Sydney: Harbor Elegance, Urban Charms, and Coastal Splendor",
+            "summaryText": "Visiting Sydney is an immersion into the captivating beauty of Australia's harbor city, where iconic landmarks and natural wonders create a stunning backdrop. The Sydney Opera House, with its distinctive sail-like architecture, and the Sydney Harbour Bridge define the city's skyline. Strolling along the picturesque Circular Quay, visitors can enjoy panoramic views of the harbor and the Royal Botanic Garden. Bondi Beach beckons with its golden sands and lively surf culture, while the historic Rocks district offers a glimpse into Sydney's colonial past. The city's diverse neighborhoods, from trendy Surry Hills to eclectic Newtown, showcase a blend of cultures and artistic expressions. Sydney's dynamic arts scene, world-class dining, and outdoor activities make it a destination that effortlessly combines urban sophistication with the laid-back charm of the Australian lifestyle.",
+            "coverImg": "/images/sidney/sidney1.jpg",
+            "sliders":[
+                {"slideImg":"/images/sidney/sidney1.jpg"},
+                {"slideImg":"/images/sidney/sidney2.jpg"},
+                {"slideImg":"/images/sidney/sidney3.jpg"}
+            ]
+        },
 
-    {
-        "id": "23",
-        "city": "Brisbane",
-        "country": "Australia",
-        "continent": "Oceania",
-        "currency": "Australian Dollar",
-        "type": "city",
-        "price": "2",
-        "checkIn": "19-08-2007",
-        "checkOut": "22-08-2007",
-        "latitude": "-27.46794",
-        "longitude": "153.02809",
-        "weatherName": "brisbane",
-        "summaryTitle": "Brisbane: Riverfront Delights, Cultural Charms, and Urban Splendor",
-        "summaryText": "Visiting Brisbane unfolds a journey into the vibrant heart of Australia's Sunshine State. The city, set along the winding Brisbane River, boasts a harmonious blend of outdoor living and urban sophistication. South Bank's cultural precinct, with its art galleries and riverside parklands, invites leisurely strolls and panoramic city views. The iconic Story Bridge spans the river, offering both a picturesque sight and adventurous bridge climbs. Brisbane's subtropical climate is perfect for exploring the lush greenery of the City Botanic Gardens or cruising the river on the CityCat ferries. The diverse neighborhoods, from the trendy West End to the eclectic Fortitude Valley, showcase the city's dynamic culinary and arts scenes. Brisbane's welcoming spirit, outdoor lifestyle, and cosmopolitan charm make it a captivating destination for every traveler.",
-        "coverImg": "/images/brisbane/brisbane1.jpg",
-        "sliders":[
-            {"slideImg":"/images/brisbane/brisbane1.jpg"},
-            {"slideImg":"/images/brisbane/brisbane2.jpg"},
-            {"slideImg":"/images/brisbane/brisbane3.jpg"}
-        ]
-    },
+        {
+            "id": "22",
+            "city": "Perth",
+            "country": "Australia",
+            "continent": "Oceania",
+            "currency": "Australian Dollar",
+            "type": "city",
+            "price": "2",
+            "checkIn": "15-08-2007",
+            "checkOut": "18-08-2007",
+            "latitude": "-31.95224",
+            "longitude": "115.8614",
+            "weatherName": "perth",
+            "summaryTitle": "Perth: Riverside Serenity, Coastal Bliss, and Urban Elegance",
+            "summaryText": "Visiting Perth invites exploration into the laid-back elegance and natural beauty of Australia's western gem. The Swan River gracefully winds through the city, providing a scenic backdrop to the skyline. Kings Park and Botanic Garden offer panoramic views and a serene escape into native flora. Perth's pristine beaches, like Cottesloe and Scarborough, are perfect for sun-drenched relaxation or water activities. The historic port town of Fremantle adds a bohemian touch with its maritime charm and lively markets. The city's cultural scene, from the Perth Cultural Centre to vibrant street art in Northbridge, reflects a fusion of tradition and modernity. Perth, with its warm climate and friendly atmosphere, beckons visitors to savor the unique blend of urban sophistication and natural wonders.",
+            "coverImg": "/images/perth/perth1.jpg",
+            "sliders":[
+                {"slideImg":"/images/perth/perth1.jpg"},
+                {"slideImg":"/images/perth/perth2.jpg"},
+                {"slideImg":"/images/perth/perth3.jpg"}
+            ]
+        },
 
-    {
-        "id": "24",
-        "city": "Auckland",
-        "country": "Australia",
-        "continent": "Oceania",
-        "currency": "New Zealand Dollar",
-        "type": "city",
-        "price": "1",
-        "checkIn": "24-08-2007",
-        "checkOut": "30-08-2007",
-        "latitude": "-36.84853",
-        "longitude": "174.76349",
-        "weatherName": "auckland",
-        "summaryTitle": "Auckland: Harbor Elegance, Cultural Fusion, and Natural Marvels",
-        "summaryText": "Visiting Auckland unfolds a captivating experience in New Zealand's largest city, where urban sophistication meets natural wonders. The iconic Sky Tower graces the skyline, offering panoramic views of the city and beyond. Auckland's harborside vibe is palpable at Viaduct Harbour, where yachts sway against the backdrop of waterfront cafes and restaurants. The city's diverse neighborhoods, from the trendy Ponsonby to the historic Parnell, showcase a blend of cultures and artistic expressions. Auckland Domain, with its lush greenery and the Auckland Museum, provides a peaceful escape in the heart of the city. The surrounding region's breathtaking landscapes, from the black sand beaches of Piha to the volcanic Rangitoto Island, add a touch of outdoor adventure to Auckland's cosmopolitan charm.",
-        "coverImg": "/images/auckland/auckland1.jpg",
-        "sliders":[
-            {"slideImg":"/images/auckland/auckland1.jpg"},
-            {"slideImg":"/images/auckland/auckland2.jpg"},
-            {"slideImg":"/images/auckland/auckland3.jpg"}
-        ]
-    }
-]
+        {
+            "id": "23",
+            "city": "Brisbane",
+            "country": "Australia",
+            "continent": "Oceania",
+            "currency": "Australian Dollar",
+            "type": "city",
+            "price": "2",
+            "checkIn": "19-08-2007",
+            "checkOut": "22-08-2007",
+            "latitude": "-27.46794",
+            "longitude": "153.02809",
+            "weatherName": "brisbane",
+            "summaryTitle": "Brisbane: Riverfront Delights, Cultural Charms, and Urban Splendor",
+            "summaryText": "Visiting Brisbane unfolds a journey into the vibrant heart of Australia's Sunshine State. The city, set along the winding Brisbane River, boasts a harmonious blend of outdoor living and urban sophistication. South Bank's cultural precinct, with its art galleries and riverside parklands, invites leisurely strolls and panoramic city views. The iconic Story Bridge spans the river, offering both a picturesque sight and adventurous bridge climbs. Brisbane's subtropical climate is perfect for exploring the lush greenery of the City Botanic Gardens or cruising the river on the CityCat ferries. The diverse neighborhoods, from the trendy West End to the eclectic Fortitude Valley, showcase the city's dynamic culinary and arts scenes. Brisbane's welcoming spirit, outdoor lifestyle, and cosmopolitan charm make it a captivating destination for every traveler.",
+            "coverImg": "/images/brisbane/brisbane1.jpg",
+            "sliders":[
+                {"slideImg":"/images/brisbane/brisbane1.jpg"},
+                {"slideImg":"/images/brisbane/brisbane2.jpg"},
+                {"slideImg":"/images/brisbane/brisbane3.jpg"}
+            ]
+        },
+
+        {
+            "id": "24",
+            "city": "Auckland",
+            "country": "Australia",
+            "continent": "Oceania",
+            "currency": "New Zealand Dollar",
+            "type": "city",
+            "price": "1",
+            "checkIn": "24-08-2007",
+            "checkOut": "30-08-2007",
+            "latitude": "-36.84853",
+            "longitude": "174.76349",
+            "weatherName": "auckland",
+            "summaryTitle": "Auckland: Harbor Elegance, Cultural Fusion, and Natural Marvels",
+            "summaryText": "Visiting Auckland unfolds a captivating experience in New Zealand's largest city, where urban sophistication meets natural wonders. The iconic Sky Tower graces the skyline, offering panoramic views of the city and beyond. Auckland's harborside vibe is palpable at Viaduct Harbour, where yachts sway against the backdrop of waterfront cafes and restaurants. The city's diverse neighborhoods, from the trendy Ponsonby to the historic Parnell, showcase a blend of cultures and artistic expressions. Auckland Domain, with its lush greenery and the Auckland Museum, provides a peaceful escape in the heart of the city. The surrounding region's breathtaking landscapes, from the black sand beaches of Piha to the volcanic Rangitoto Island, add a touch of outdoor adventure to Auckland's cosmopolitan charm.",
+            "coverImg": "/images/auckland/auckland1.jpg",
+            "sliders":[
+                {"slideImg":"/images/auckland/auckland1.jpg"},
+                {"slideImg":"/images/auckland/auckland2.jpg"},
+                {"slideImg":"/images/auckland/auckland3.jpg"}
+            ]
+        }
+    ]
+}

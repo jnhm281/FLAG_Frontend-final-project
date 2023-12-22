@@ -215,13 +215,12 @@ p {
 .tripCard-date {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     gap: 1rem;
     font-size: 1.3rem;
 }
 
 /* .tripCard-date-text {
-
+   
 } */
 
         /* OtherTrips */
