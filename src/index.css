@@ -634,14 +634,6 @@ p {
     object-fit: cover;
 }
 
-            /* Weather */
-
-.trip-info-weather {
-    width: 311px;
-    height: 221px;
-    background-color: aqua;
-}
-
             /* -------- */
 
 .trip-wrapper-2 {

@@ -1,0 +1,34 @@
+.trip-info-weather {
+    width: 311px;
+    height: 221px;
+    background-color: aqua;
+}
+
+.currentWeather {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    background-color: aquamarine;
+}
+
+.currentWeather-temperature {
+    
+}
+
+.currentWeather-details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.currentWeather-condition {
+
+}
+
+.currentWeather-condition-img {
+
+}
+
+.currentWeather-condition-

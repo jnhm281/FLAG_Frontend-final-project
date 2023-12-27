@@ -3,7 +3,7 @@ import { Link } from "wouter";
 function TripCard({ tripInfo }) {
   return (
     <>
-      <Link href="/trip" className="tripCard-container">
+      <Link href={"/trip/" + tripInfo.city} className="tripCard-container">
         <img
           src={tripInfo.coverImg}
           alt={tripInfo.city + " cover image"}

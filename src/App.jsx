@@ -16,7 +16,9 @@ function App() {
         <Route path="/" component={HomePageView} />
         <Route path="/addDestination" component={AddDestinationView} />
         <Route path="/about" component={AboutView} />
-        <Route path="/trip" component={TripView} />
+        <Route path="/trip/:citySlug">
+          {(params) => <TripView city={params.citySlug} />}
+        </Route>
         <Route>
           <h2>404</h2>
           <p>Ups, something went wrong along the way.</p>

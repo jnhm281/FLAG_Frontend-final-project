@@ -2,23 +2,32 @@ import { useState, useEffect } from "react";
 import getTripList from "../services/getTripList";
 import BodyTrip from "../components/BodyTrip";
 
-function TripView() {
-  const [tripDetails, setTripDetails] = useState([]);
+function TripView({ city }) {
+  const [tripDetails, setTripDetails] = useState({});
 
   useEffect(function () {
     (async function () {
-      const result = await getTripList.getTripList();
+      const url = "/mockAPI/mockAPI.json";
 
-      setTripDetails(result);
+      const response = await fetch(url);
+      const result = await response.json();
+
+      const foundElement = result.trips.find((item) => {
+        return item.city == city;
+      });
+
+      console.log(foundElement);
+
+      setTripDetails(foundElement);
     })();
   }, []);
+
+  console.log(tripDetails);
 
   return (
     <>
       <div className="trip-page">
-        {tripDetails.map((item) => (
-          <BodyTrip key={item.id} tripDetail={item} />
-        ))}
+        <BodyTrip key={tripDetails.id} tripDetail={tripDetails} />
       </div>
     </>
   );
