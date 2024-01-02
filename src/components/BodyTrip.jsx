@@ -58,7 +58,7 @@ function BodyTrip({ tripDetail }) {
             {/*  */}
             <div className="trip-info">
               <TripMap key={tripDetail.id} tripData={tripDetail} />
-              <Weather />
+              <Weather key={tripDetail.id} tripData={tripDetail} />
             </div>
           </div>
           <div className="trip-wrapper-2">

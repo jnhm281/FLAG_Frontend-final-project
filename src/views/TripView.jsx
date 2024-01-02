@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import getTripList from "../services/getTripList";
 import BodyTrip from "../components/BodyTrip";
 
 function TripView({ city }) {

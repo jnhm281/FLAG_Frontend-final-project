@@ -2,17 +2,29 @@ import * as React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker, NavigationControl } from "react-map-gl";
 import { useEffect, useState } from "react";
+// import getTripList from "../services/getTripList";
 
 function TripMap({ tripData }) {
-  console.log(tripData);
+  //   console.log(tripData);
+
+  //   const [mapInfo, setMapInfo] = useState([]);
+
+  //   useEffect(function () {
+  //     (async function () {
+  //       const result = await getTripList.getTripList();
+
+  //       setMapInfo(result);
+  //       console.log(setMapInfo);
+  //     })();
+  //   }, []);
 
   const token =
     "pk.eyJ1Ijoiam5obTI4MSIsImEiOiJjbHF3ajVkNzEwM3MzMmtwemVrOTRmM2pnIn0.MWCkcdQMLjNvOTzw78Kiwg";
 
   const [centerMap, setCenterMap] = useState({
-    latitude: 40,
-    longitude: 20,
-    zoom: 4,
+    latitude: 48.85,
+    longitude: 2.35,
+    zoom: 12,
   });
 
   return (

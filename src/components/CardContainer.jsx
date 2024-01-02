@@ -22,7 +22,7 @@ function CardContainer() {
         </div>
         <div className="card-container">
           {tripCard
-            .sort((a, b) => (a.date < b.date ? 1 : -1))
+            .sort((a, b) => (a.checkIn < b.checkIn ? 1 : -1))
             .slice(0, 4)
             .map((item) => (
               <TripCard key={item.id} tripInfo={item} />
