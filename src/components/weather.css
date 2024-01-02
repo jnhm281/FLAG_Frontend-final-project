@@ -2,6 +2,7 @@
     width: 311px;
     height: 221px;
     background-color: aqua;
+    font-family: 'PT Serif', serif;
 }
 
 .currentWeather {
@@ -13,7 +14,8 @@
 }
 
 .currentWeather-temperature {
-    
+    font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .currentWeather-details {
@@ -28,7 +30,21 @@
 }
 
 .currentWeather-condition-img {
-
+height: 60px;
+width: 60px;
 }
 
-.currentWeather-condition-
+.forecastWeather {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    background-color: red;
+}
+
+.forecastWeather-day {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

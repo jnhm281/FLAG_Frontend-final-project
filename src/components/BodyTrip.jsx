@@ -1,5 +1,9 @@
+import TripMap from "./TripMap";
 import Weather from "./Weather";
 import RecentTrips from "./RecentTrips";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectFade, Autoplay } from "swiper/modules";
+import "./slider.css";
 
 function BodyTrip({ tripDetail }) {
   return (
@@ -20,20 +24,40 @@ function BodyTrip({ tripDetail }) {
           </div>
           <div className="trip-wrapper-1">
             {/*  */}
-            <div className="trip-slider">
-              <img
-                src={tripDetail.coverImg}
-                alt={tripDetail.city + " cover image"}
-                className="trip-slider-img"
-              />
-            </div>
+            <Swiper
+              modules={[EffectFade]}
+              effect="fade"
+              className="trip-slider"
+              slidesPerView={1}
+              pagination={{ clickable: true }}
+              navigation
+              autoplay={true}
+            >
+              <SwiperSlide className="trip-slide">
+                <img
+                  className="trip-slide-img"
+                  src={tripDetail.slideImg1}
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide className="trip-slide">
+                <img
+                  className="trip-slide-img"
+                  src={tripDetail.slideImg2}
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide className="trip-slide">
+                <img
+                  className="trip-slide-img"
+                  src={tripDetail.slideImg3}
+                  alt=""
+                />
+              </SwiperSlide>
+            </Swiper>
             {/*  */}
             <div className="trip-info">
-              <img
-                src="/images/World-Map.svg"
-                alt="World Map - Img"
-                className="trip-info-map"
-              />
+              <TripMap key={tripDetail.id} tripData={tripDetail} />
               <Weather />
             </div>
           </div>

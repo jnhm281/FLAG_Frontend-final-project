@@ -16,13 +16,13 @@ function TripView({ city }) {
         return item.city == city;
       });
 
-      console.log(foundElement);
+      // console.log(foundElement);
 
       setTripDetails(foundElement);
     })();
   }, []);
 
-  console.log(tripDetails);
+  // console.log(tripDetails);
 
   return (
     <>

@@ -22,7 +22,8 @@ function CardContainer() {
         </div>
         <div className="card-container">
           {tripCard
-            .filter((item) => item.continent === "Recent")
+            .sort((a, b) => (a.date < b.date ? 1 : -1))
+            .slice(0, 4)
             .map((item) => (
               <TripCard key={item.id} tripInfo={item} />
             ))}
