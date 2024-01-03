@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import TripMap from "./TripMap";
 import Weather from "./Weather";
 import RecentTrips from "./RecentTrips";
@@ -6,6 +7,61 @@ import { EffectFade, Autoplay } from "swiper/modules";
 import "./slider.css";
 
 function BodyTrip({ tripDetail }) {
+  function checkCoordinatesForMap() {
+    if ((tripDetail.latitude && tripDetail.longitude) != undefined) {
+      return <TripMap key={tripDetail.id} tripData={tripDetail} />;
+    }
+  }
+
+  function checkWeather() {
+    if ((tripDetail.latitude && tripDetail.longitude) != undefined) {
+      return (
+        <Weather
+          key={tripDetail.id}
+          tripData={tripDetail}
+          currentWeatherInfo={currentWeather}
+          forecastWeatherInfo={forecastWeather}
+        />
+      );
+    }
+  }
+
+  const weatherAPIKey = "260e56361ca6106361e0c6f6ba85a589";
+
+  const [currentWeather, setCurrentWeather] = useState({});
+
+  const [forecastWeather, setForecastWeather] = useState([]);
+
+  const currentWeatherFetch = fetch(
+    `https://api.openweathermap.org/data/2.5/weather?lat=${tripDetail.latitude}&lon=${tripDetail.longitude}&units=metric&appid=${weatherAPIKey}`
+  );
+
+  const forecastWeatherFetch = fetch(
+    `https://api.openweathermap.org/data/2.5/forecast?lat=${tripDetail.latitude}&lon=${tripDetail.longitude}&units=metric&appid=${weatherAPIKey}`
+  );
+
+  useEffect(function () {
+    (async function () {
+      const responseCurrentWeather = await currentWeatherFetch;
+      const resultCurrentWeather = await responseCurrentWeather.json();
+
+      setCurrentWeather(resultCurrentWeather);
+
+      const responseForecastWeather = await forecastWeatherFetch;
+      const resultForecastWeather = await responseForecastWeather.json();
+
+      const newResultForecastWeather = [
+        resultForecastWeather.list[7],
+        resultForecastWeather.list[15],
+        resultForecastWeather.list[23],
+        resultForecastWeather.list[31],
+        resultForecastWeather.list[39],
+      ];
+
+      setForecastWeather(newResultForecastWeather);
+    })();
+  }, []);
+
   return (
     <>
       <div className="body-trip-page">
@@ -57,8 +113,8 @@ function BodyTrip({ tripDetail }) {
             </Swiper>
             {/*  */}
             <div className="trip-info">
-              <TripMap key={tripDetail.id} tripData={tripDetail} />
-              <Weather key={tripDetail.id} tripData={tripDetail} />
+              {checkCoordinatesForMap()}
+              {checkWeather()}
             </div>
           </div>
           <div className="trip-wrapper-2">

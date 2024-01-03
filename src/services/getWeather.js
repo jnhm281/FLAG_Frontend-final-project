@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-async function getWeather(tripInfo) {
+async function getWeather(tripDetail) {
 
     const weatherAPIKey = "260e56361ca6106361e0c6f6ba85a589";
 

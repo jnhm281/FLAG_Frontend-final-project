@@ -22,8 +22,8 @@ function TripMap({ tripData }) {
     "pk.eyJ1Ijoiam5obTI4MSIsImEiOiJjbHF3ajVkNzEwM3MzMmtwemVrOTRmM2pnIn0.MWCkcdQMLjNvOTzw78Kiwg";
 
   const [centerMap, setCenterMap] = useState({
-    latitude: 48.85,
-    longitude: 2.35,
+    latitude: tripData.latitude,
+    longitude: tripData.longitude,
     zoom: 12,
   });
 
@@ -48,7 +48,7 @@ function TripMap({ tripData }) {
               </>
             );
           })} */}
-          <NavigationControl position="bottom-right" showCompass showZoom />
+          {/* <NavigationControl position="bottom-right" showCompass showZoom /> */}
         </Map>
       </div>
     </>

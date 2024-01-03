@@ -12,7 +12,10 @@ function TripView({ city }) {
       const result = await response.json();
 
       const foundElement = result.trips.find((item) => {
-        return item.city == city;
+        // console.log(item.city);
+        // console.log(decodeURI(city));
+        // console.log("---");
+        return item.city == decodeURI(city);
       });
 
       // console.log(foundElement);
