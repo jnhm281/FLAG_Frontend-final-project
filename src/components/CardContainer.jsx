@@ -36,13 +36,13 @@ function CardContainer() {
 
       {/* ------ */}
 
-      <div className="continent-container">
+      <div className="continent-container" id="africa">
         <div className="continent-title">
-          <img
+          {/* <img
             src="/images/Africa.jpg"
             alt="Continent img"
             className="continent-title-img"
-          />
+          /> */}
           <h2 className="continent-title-text">Africa</h2>
         </div>
         <div className="card-container">
@@ -56,13 +56,13 @@ function CardContainer() {
 
       {/* ------ */}
 
-      <div className="continent-container">
+      <div className="continent-container" id="asia">
         <div className="continent-title">
-          <img
+          {/* <img
             src="/images/Asia.jpg"
             alt="Continent img"
             className="continent-title-img"
-          />
+          /> */}
           <h2 className="continent-title-text">Asia</h2>
         </div>
         <div className="card-container">
@@ -76,13 +76,13 @@ function CardContainer() {
 
       {/* ------ */}
 
-      <div className="continent-container">
+      <div className="continent-container" id="europe">
         <div className="continent-title">
-          <img
+          {/* <img
             src="/images/Europe.jpg"
             alt="Continent img"
             className="continent-title-img"
-          />
+          /> */}
           <h2 className="continent-title-text">Europe</h2>
         </div>
         <div className="card-container">
@@ -96,13 +96,13 @@ function CardContainer() {
 
       {/* ------ */}
 
-      <div className="continent-container">
+      <div className="continent-container" id="oceania">
         <div className="continent-title">
-          <img
+          {/* <img
             src="/images/Oceania.jpg"
             alt="Continent img"
             className="continent-title-img"
-          />
+          /> */}
           <h2 className="continent-title-text">Oceania</h2>
         </div>
         <div className="card-container">
@@ -116,13 +116,13 @@ function CardContainer() {
 
       {/* ------ */}
 
-      <div className="continent-container">
+      <div className="continent-container" id="northAmerica">
         <div className="continent-title">
-          <img
+          {/* <img
             src="/images/North-America.jpg"
             alt="Continent img"
             className="continent-title-img"
-          />
+          /> */}
           <h2 className="continent-title-text">North America</h2>
         </div>
         <div className="card-container">
@@ -136,13 +136,13 @@ function CardContainer() {
 
       {/* ------ */}
 
-      <div className="continent-container">
+      <div className="continent-container" id="southAmerica">
         <div className="continent-title">
-          <img
+          {/* <img
             src="/images/South-America.jpg"
             alt="Continent img"
             className="continent-title-img"
-          />
+          /> */}
           <h2 className="continent-title-text">South America</h2>
         </div>
         <div className="card-container">

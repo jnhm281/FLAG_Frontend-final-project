@@ -4,7 +4,16 @@
 
 /* Resets */
 
+:root {
+    --white: #EAE7DC;
+    --brown: #D8C3A5;
+    --gray: #8E8D8A;
+    --lightRed: #E98074;
+    --darkRed: #E85A4F;
+  }
+
 html {
+    scroll-behavior: smooth;
     /* scroll-snap-type: y proximity; */
 }
 
@@ -12,6 +21,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--white);
 }
 
 a {
@@ -69,14 +79,13 @@ p {
     height: 6rem;
     position: fixed;
     z-index: 999;
-    background: rgba(255, 0, 0, 0.432);
+    background: var(--white);
 }
 
 .header-identity {
     display: flex;
     align-items: center;
     height: 100%;
-    
 }
 
 .header-identity > a {
@@ -104,27 +113,25 @@ p {
     width: fit-content;
     height: fit-content;
     font-size: 1.25rem;
+    color: var(--gray)
 }
 
 .header-menu-home {
     display: flex;
     align-items: center;
     gap: 1rem;
-    color: white;
 }
 
 .header-menu-add {
     display: flex;
     align-items: center;
     gap: 1rem;
-    color: white;
 }
 
 .header-menu-about {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    color: white;   
+    gap: 1rem;   
 }
 
 /* Home Page */
@@ -162,6 +169,7 @@ p {
 .section-title {
     line-height: 6rem;
     vertical-align: middle;
+    color: var(--lightRed)
 }
 
         /* Card Container */
@@ -184,6 +192,7 @@ p {
     justify-content: space-between;
     width: 312px;
     height: 330px;
+    /* background-color: var(--brown); */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
 }
 
@@ -206,22 +215,24 @@ p {
     align-items: center;
     gap: 1rem;
     font-size: 1.3rem;
+    color: var(--gray)
 }
 
-/* .tripCard-location-text {
-
-} */
+.tripCard-location-text {
+    color: var(--darkRed)
+}
 
 .tripCard-date {
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
     font-size: 1.3rem;
+    color: var(--gray)
 }
 
-/* .tripCard-date-text {
-   
-} */
+.tripCard-date-text {
+   color: var(--lightRed)
+}
 
         /* OtherTrips */
 
@@ -235,16 +246,16 @@ p {
 }
 
 .worldMap-container {
-    display: flex;
-    justify-content: center;
-}
-
-.worldMap-img {
-    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+    width: 55%;
     height: calc(100vh - 16rem);
     padding: 2rem 2rem;
     object-fit: cover;
 }
+
+/* .worldMap-img {
+} */
 
         /* Other Trips mobile */
 
@@ -302,6 +313,7 @@ p {
     line-height: 6rem;
     width: 100%;
     top: 0;
+    color: var(--lightRed);
 }
 
 /* Footer */
@@ -311,11 +323,22 @@ p {
     justify-content: space-around;
     align-items: center;
     height: 6rem;
-    border: 1px solid black;
-    background: rgba(0, 0, 0, 0.40);
+    /* border: 1px solid black; */
+    background: var(--brown);
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+    color: var(--gray);
+    text-decoration: none;
 }
 
 .footer > a {
+    text-decoration: none;
+    color: var(--gray);
     width: fit-content;
     height: fit-content;
 }
@@ -368,11 +391,12 @@ p {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: var(--gray);
 }
 
-/* .form-newDestination-label-text {
-
-} */
+.form-newDestination-label-text {
+color: var(--darkRed);
+}
 
 .form-newDestination-input {
     width: 50%;
@@ -397,11 +421,12 @@ p {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: var(--gray);
 }
 
-/* .form-dates-checkIn-label-text {
-    
-} */
+.form-dates-checkIn-label-text {
+    color: var(--darkRed);
+}
 
 /* .form-dates-checkIn-input {
 
@@ -418,11 +443,12 @@ p {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: var(--gray);
 }
 
-/* .form-dates-checkOut-label-text {
-    
-} */
+.form-dates-checkOut-label-text {
+    color: var(--darkRed);
+}
 
 /* .form-dates-checkOut-input {
     
@@ -439,11 +465,12 @@ p {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: var(--gray);
 }
 
-/* .form-description-label-text {
-    
-} */
+.form-description-label-text {
+    color: var(--darkRed);
+}
 
 .form-description-input {
     resize: none;
@@ -460,11 +487,12 @@ p {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: var(--gray);
 }
 
-/* .form-upload-label-text {
-
-} */
+.form-upload-label-text {
+color: var(--darkRed);
+}
 
 /* .form-upload-input {
 
@@ -477,6 +505,11 @@ p {
 .form-submit-input {
     width: 100%;
     height: 3rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--darkRed);
+    background-color: var(--brown);
 }
 
 .body-about-page {
@@ -527,23 +560,23 @@ p {
     object-fit: cover;
 }
 
-/* .about-details-name {
+.about-details-name {
+    color: var(--darkRed)
+}
 
-} */
+.about-details-age {
+    color: var(--lightRed)
+}
 
-/* .about-details-age {
-
-} */
-
-/* .about-details-naturality {
-
-} */
+.about-details-naturality {
+    color: var(--lightRed)
+}
 
 .about-presentation {
     display: flex;
     flex-direction: column;
     max-width: 616px;
-    
+    color: var(--gray)
 }
 
 /* .about-presentation-text {
@@ -606,6 +639,14 @@ p {
     gap: 2rem;
     min-height: calc(100vh - 16rem);
     padding: 2rem 2rem;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: var(--darkRed);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--darkRed)
 }
 
 .trip-info {

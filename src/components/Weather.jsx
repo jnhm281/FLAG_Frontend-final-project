@@ -1,6 +1,14 @@
 import "./weather.css";
 
+const weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 function Weather({ tripData, currentWeatherInfo, forecastWeatherInfo }) {
+  const dayOfTheWeek = new Date().getDay();
+  const forecastWeekDays = weekdays
+    .slice(dayOfTheWeek, weekdays.length)
+    .concat(weekdays.slice(0, dayOfTheWeek));
+
+  console.log(forecastWeekDays);
+
   return (
     <>
       <div className="trip-info-weather">
@@ -12,11 +20,11 @@ function Weather({ tripData, currentWeatherInfo, forecastWeatherInfo }) {
             </span>
           </div>
           <div className="currentWeather-details">
-            <span className="currentWeather-details-tempMax">
-              {Math.round(currentWeatherInfo.main?.temp_min)}&deg;
+            <span className="currentWeather-details-feelsLike">
+              {Math.round(currentWeatherInfo.main?.feels_like)}&deg;
             </span>
-            <span className="currentWeather-details-tempMin">
-              {Math.round(currentWeatherInfo.main?.temp_max)}&deg;
+            <span className="currentWeather-details-humidity">
+              {Math.round(currentWeatherInfo.main?.humidity)}%
             </span>
             <span className="currentWeather-details-wind">
               {Math.round(currentWeatherInfo.wind?.speed)}m/s
@@ -37,13 +45,16 @@ function Weather({ tripData, currentWeatherInfo, forecastWeatherInfo }) {
             </span>
           </div>
         </div>
+
+        {/* ------ */}
+
         <div className="forecastWeather">
-          {forecastWeatherInfo?.map((item) => {
+          {forecastWeatherInfo?.map((item, index) => {
             return (
               <div className="forecastWeather-day">
-                <span className="forecastWeather-day-min">
+                {/* <span className="forecastWeather-day-min">
                   {Math.round(item?.main.temp_min)}&deg;
-                </span>
+                </span> */}
                 <div className="forecastWeather-day-condition">
                   <img
                     src={
@@ -55,8 +66,8 @@ function Weather({ tripData, currentWeatherInfo, forecastWeatherInfo }) {
                     className="forecastWeather-day-condition-img"
                   />
                 </div>
-                <span className="forecastWeather-day-max">
-                  {Math.round(item?.main.temp_max)}&deg;
+                <span className="forecastWeather-day-weekday">
+                  {forecastWeekDays[index]}
                 </span>
               </div>
             );

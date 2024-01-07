@@ -1,0 +1,32 @@
+.hidden {
+  display: none;
+}
+  
+.showButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  position: fixed;
+  background-color: var(--darkRed);
+  border-radius: 50%;
+  padding: 0.25rem;
+  right: -100px;
+  bottom: 8rem;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+  transform: translateX(-150px);
+  animation: slideLeft 1s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(-150px);
+  }
+}

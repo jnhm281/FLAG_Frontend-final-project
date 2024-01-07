@@ -8,7 +8,7 @@ function Header() {
           <Link href="/" className="header-identity-home">
             <span></span>
             <img
-              src="/logo/Wordmark-250x150px-DM.svg"
+              src="/logo/Wordmark-250x150px-RED.svg"
               alt="Wordmark"
               className="header-identity-home-logo"
             />
