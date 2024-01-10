@@ -17,7 +17,10 @@ function scrollToTopButton() {
   };
 
   return (
-    <div className={showButton ? "showButton" : "hidden"} onClick={scrollToTop}>
+    <div
+      className={(showButton ? "showButton" : "") + " topButton"}
+      onClick={scrollToTop}
+    >
       <i class="fa-solid fa-arrow-up"></i>
     </div>
   );

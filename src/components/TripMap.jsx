@@ -36,7 +36,7 @@ function TripMap({ tripData }) {
           onMove={function (state) {
             return setCenterMap(state.centerMap);
           }}
-          mapStyle="mapbox://styles/mapbox/streets-v9"
+          mapStyle="mapbox://styles/jnhm281/clr6h0mta01e701r57v3bdpjh"
         >
           {/* <Marker latitude={tripData.latitude} longitude={tripData.longitude} /> */}
           {/* {tripData.map(function (info) {

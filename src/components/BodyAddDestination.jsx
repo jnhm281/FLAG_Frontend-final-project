@@ -4,7 +4,7 @@ function BodyAddDestination() {
       <div className="body-add-destination-page">
         <section className="addDestination-container">
           <div className="section-title">
-            <h2>Recent trips</h2>
+            <h2>Add new trip</h2>
           </div>
           <form id="form" action="" method="get" class="form-wrapper">
             <div class="form-newDestination">

@@ -122,7 +122,42 @@ function BodyTrip({ tripDetail }) {
               <h2>{tripDetail.summaryTitle}</h2>
             </div>
             <div className="trip-summary">
-              <div className="trip-summary-highlights">highlights-2</div>
+              <div className="trip-summary-highlights">
+                <div className="trip-summary-highlights-details">
+                  <i class="fa-solid fa-city trip-summary-highlights-details-icon"></i>
+                  <span className="trip-summary-highlights-details-text">
+                    {tripDetail.city}
+                  </span>
+                </div>
+                <hr className="hor-ruler-details" />
+                <div className="trip-summary-highlights-details">
+                  <i class="fa-regular fa-flag trip-summary-highlights-details-icon"></i>
+                  <span className="trip-summary-highlights-details-text">
+                    {tripDetail.country}
+                  </span>
+                </div>
+                <hr className="hor-ruler-details" />
+                <div className="trip-summary-highlights-details">
+                  <i class="fa-solid fa-coins trip-summary-highlights-details-icon"></i>
+                  <span className="trip-summary-highlights-details-text">
+                    {tripDetail.currency}
+                  </span>
+                </div>
+                <hr className="hor-ruler-details" />
+                <div className="trip-summary-highlights-details">
+                  <i class="fa-solid fa-suitcase-rolling trip-summary-highlights-details-icon"></i>
+                  <span className="trip-summary-highlights-details-text">
+                    {tripDetail.type}
+                  </span>
+                </div>
+                <hr className="hor-ruler-details" />
+                <div className="trip-summary-highlights-details">
+                  <i class="fa-solid fa-wallet trip-summary-highlights-details-icon"></i>
+                  <span className="trip-summary-highlights-details-text">
+                    {tripDetail.price}/5
+                  </span>
+                </div>
+              </div>
               <div className="trip-summary-description">
                 <p className="trip-summary-description-text">
                   {tripDetail.summaryText}

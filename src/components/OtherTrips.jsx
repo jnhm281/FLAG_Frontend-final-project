@@ -46,6 +46,7 @@ function OtherTrips() {
   return (
     <>
       <section className="other-trips-container">
+        <hr className="hor-ruler-body" />
         <div className="section-title">
           <h2>Other trips</h2>
         </div>

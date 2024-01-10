@@ -1,8 +1,4 @@
-.hidden {
-  display: none;
-}
-  
-.showButton {
+.topButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,20 +9,14 @@
   border-radius: 50%;
   padding: 0.25rem;
   right: -100px;
-  bottom: 8rem;
+  bottom: 10rem;
   font-size: 35px;
   color: white;
   cursor: pointer;
-  transform: translateX(-150px);
-  animation: slideLeft 1s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+  transition: 0.5s;
 }
-
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-100px);
-  }
-  100% {
-    transform: translateX(-150px);
-  }
+  
+.showButton {
+  right: 2rem;
 }

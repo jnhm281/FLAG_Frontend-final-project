@@ -37,6 +37,7 @@ function CardContainer() {
       {/* ------ */}
 
       <div className="continent-container" id="africa">
+        <hr className="hor-ruler-body" />
         <div className="continent-title">
           {/* <img
             src="/images/Africa.jpg"
@@ -57,6 +58,7 @@ function CardContainer() {
       {/* ------ */}
 
       <div className="continent-container" id="asia">
+        <hr className="hor-ruler-body" />
         <div className="continent-title">
           {/* <img
             src="/images/Asia.jpg"
@@ -77,6 +79,7 @@ function CardContainer() {
       {/* ------ */}
 
       <div className="continent-container" id="europe">
+        <hr className="hor-ruler-body" />
         <div className="continent-title">
           {/* <img
             src="/images/Europe.jpg"
@@ -97,6 +100,7 @@ function CardContainer() {
       {/* ------ */}
 
       <div className="continent-container" id="oceania">
+        <hr className="hor-ruler-body" />
         <div className="continent-title">
           {/* <img
             src="/images/Oceania.jpg"
@@ -117,6 +121,7 @@ function CardContainer() {
       {/* ------ */}
 
       <div className="continent-container" id="northAmerica">
+        <hr className="hor-ruler-body" />
         <div className="continent-title">
           {/* <img
             src="/images/North-America.jpg"
@@ -137,6 +142,7 @@ function CardContainer() {
       {/* ------ */}
 
       <div className="continent-container" id="southAmerica">
+        <hr className="hor-ruler-body" />
         <div className="continent-title">
           {/* <img
             src="/images/South-America.jpg"

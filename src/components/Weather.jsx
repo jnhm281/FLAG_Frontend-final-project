@@ -15,20 +15,32 @@ function Weather({ tripData, currentWeatherInfo, forecastWeatherInfo }) {
         <div className="currentWeather">
           <div className="currentWeather-main">
             <span className="currentWeather-main-city">{tripData.city}</span>
-            <span className="currentWeather-main-temperature">
-              {Math.round(currentWeatherInfo.main?.temp)}&deg;
-            </span>
+            <div className="currentWeather-main-temperature">
+              <i class="fa-solid fa-temperature-half currentWeather-main-temperature-icon"></i>
+              <span className="currentWeather-main-temperature-text">
+                {Math.round(currentWeatherInfo.main?.temp)}&deg;
+              </span>
+            </div>
           </div>
           <div className="currentWeather-details">
-            <span className="currentWeather-details-feelsLike">
-              {Math.round(currentWeatherInfo.main?.feels_like)}&deg;
-            </span>
-            <span className="currentWeather-details-humidity">
-              {Math.round(currentWeatherInfo.main?.humidity)}%
-            </span>
-            <span className="currentWeather-details-wind">
-              {Math.round(currentWeatherInfo.wind?.speed)}m/s
-            </span>
+            <div className="currentWeather-details-feelsLike">
+              <i class="fa-solid fa-gauge-simple-high currentWeather-details-feelsLike-icon"></i>
+              <span className="currentWeather-details-feelsLike-text">
+                {Math.round(currentWeatherInfo.main?.feels_like)}&deg;
+              </span>
+            </div>
+            <div className="currentWeather-details-humidity">
+              <i class="fa-solid fa-droplet currentWeather-details-humidity-icon"></i>
+              <span className="currentWeather-details-humidity-text">
+                {Math.round(currentWeatherInfo.main?.humidity)}%
+              </span>
+            </div>
+            <div className="currentWeather-details-wind">
+              <i class="fa-solid fa-wind currentWeather-details-wind-icon"></i>
+              <span className="currentWeather-details-wind-text">
+                {Math.round(currentWeatherInfo.wind?.speed)}m/s
+              </span>
+            </div>
           </div>
           <div className="currentWeather-condition">
             <img
@@ -45,7 +57,7 @@ function Weather({ tripData, currentWeatherInfo, forecastWeatherInfo }) {
             </span>
           </div>
         </div>
-
+        <hr className="hor-ruler-weather" />
         {/* ------ */}
 
         <div className="forecastWeather">
