@@ -1,0 +1,22 @@
+.topButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  position: fixed;
+  background-color: var(--darkRed);
+  border-radius: 50%;
+  padding: 0.25rem;
+  right: -100px;
+  bottom: 16rem;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+  transition: 0.5s;
+}
+  
+.showButton {
+  right: 2rem;
+}

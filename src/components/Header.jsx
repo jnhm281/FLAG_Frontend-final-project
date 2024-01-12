@@ -1,32 +1,41 @@
-import { Link } from "wouter";
+import { Link, useRoute } from "wouter";
 
 function Header() {
+  const ActiveLink = (props) => {
+    const [isActive] = useRoute(props.href);
+    return (
+      <Link {...props}>
+        <a className={isActive ? "active" : ""}>{props.children}</a>
+      </Link>
+    );
+  };
+
   return (
     <>
-      <div className="header">
-        <div className="identity">
-          <Link href="/" className="identity-home">
+      <div className="header-container">
+        <div className="header-identity">
+          <Link href="/" className="header-identity-home">
             <span></span>
             <img
-              src="/logo/Wordmark-250x150px-DM.svg"
+              src="/logo/Wordmark-250x150px-RED.svg"
               alt="Wordmark"
-              className="identity-logo"
+              className="header-identity-home-logo"
             />
           </Link>
         </div>
-        <div className="menu">
-          <Link href="/" className="menu-home">
+        <div className="header-menu">
+          <ActiveLink href="/" className="header-menu-home">
             <i class="fa-solid fa-house"></i>
-            <span className="menu-text">Home</span>
-          </Link>
-          <Link href="/adddestination" className="menu-add">
+            <span className="header-menu-home-text">Home</span>
+          </ActiveLink>
+          <ActiveLink href="/adddestination" className="header-menu-add">
             <i class="fa-solid fa-plus"></i>
-            <span className="menu-text">Add Destination</span>
-          </Link>
-          <Link href="/about" className="menu-about">
+            <span className="header-menu-add-text">Add Destination</span>
+          </ActiveLink>
+          <ActiveLink href="/about" className="header-menu-about">
             <i class="fa-solid fa-user-astronaut"></i>
-            <span className="menu-text">The Traveler</span>
-          </Link>
+            <span className="header-menu-about-text">The Traveler</span>
+          </ActiveLink>
         </div>
       </div>
     </>

@@ -2,18 +2,23 @@ function BodyAbout() {
   return (
     <>
       <div className="body-about-page">
-        <section className="about">
+        <section className="about-container">
           <div className="section-title">
             <h2>About me</h2>
           </div>
-          <div className="about-container">
-            <img
-              src="/images/Profile-Photo.jpg"
-              alt="Bio Img"
-              className="about-img"
-            />
+          <div className="about-wrapper">
+            <div className="about-details">
+              <img
+                src="/images/Profile-Photo.jpg"
+                alt="Bio Img"
+                className="about-details-img"
+              />
+              <h4 className="about-details-name">João Magalhães</h4>
+              <h5 className="about-details-age">1988 - ?</h5>
+              <h5 className="about-details-naturality">Lisbon, Portugal</h5>
+            </div>
             <div className="about-presentation">
-              <p>
+              <p className="about-presentation-text">
                 Being a travel blogger is an exhilarating journey that goes
                 beyond the conventional boundaries of a career. It's a lifestyle
                 fueled by an insatiable wanderlust, a perpetual curiosity to
@@ -33,9 +38,6 @@ function BodyAbout() {
                 a profound connection to the world and its myriad wonders. Or,
                 as i like to say, I just simply like to travel.
               </p>
-              <h3>João Magalhães</h3>
-              <h4>Lisbon, Portugal</h4>
-              <h4>1988 - ?</h4>
             </div>
           </div>
         </section>

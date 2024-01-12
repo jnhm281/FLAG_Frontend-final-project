@@ -1,21 +1,14 @@
 import Hero from "./Hero";
-import RecentTrips from "./RecentTrips";
-import OtherTrips from "./OtherTrips";
-import Continent from "./Continent";
+import CardContainer from "./CardContainer";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 function BodyHomePage() {
   return (
     <>
       <div className="body-home-page">
         <Hero />
-        <RecentTrips />
-        <OtherTrips />
-        <Continent />
-        <Continent />
-        <Continent />
-        <Continent />
-        <Continent />
-        <Continent />
+        <CardContainer />
+        <ScrollToTopButton />
       </div>
     </>
   );

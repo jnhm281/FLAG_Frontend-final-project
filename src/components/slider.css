@@ -1,0 +1,17 @@
+.trip-slider {
+  display: flex;
+  max-width: 1001px;
+  max-height: 667px;
+  min-width: 312px;
+}
+
+.trip-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.trip-slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
