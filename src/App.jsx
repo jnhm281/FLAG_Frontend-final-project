@@ -14,6 +14,7 @@ import HomePageView from "./views/HomePageView";
 import AddDestinationView from "./views/AddDestinationView";
 import AboutView from "./views/AboutView";
 import TripView from "./views/TripView";
+import PageNotFoundView from "./views/PageNotFoundView";
 
 function App() {
   return (
@@ -27,10 +28,7 @@ function App() {
         <Route path="/trip/:citySlug">
           {(params) => <TripView city={params.citySlug} />}
         </Route>
-        <Route>
-          <h2>404</h2>
-          <p>Ups, something went wrong along the way.</p>
-        </Route>
+        <Route component={PageNotFoundView}></Route>
       </Switch>
       <Footer />
     </>

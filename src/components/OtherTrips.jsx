@@ -16,7 +16,7 @@ function OtherTrips() {
     // scrollZoom: false,
     // boxZoom: false,
     // doubleClickZoom: false,
-    attributionControl: false,
+    // attributionControl: false,
   });
 
   function handleClickAfrica() {

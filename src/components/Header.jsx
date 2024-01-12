@@ -1,6 +1,15 @@
-import { Link } from "wouter";
+import { Link, useRoute } from "wouter";
 
 function Header() {
+  const ActiveLink = (props) => {
+    const [isActive] = useRoute(props.href);
+    return (
+      <Link {...props}>
+        <a className={isActive ? "active" : ""}>{props.children}</a>
+      </Link>
+    );
+  };
+
   return (
     <>
       <div className="header-container">
@@ -15,18 +24,18 @@ function Header() {
           </Link>
         </div>
         <div className="header-menu">
-          <Link href="/" className="header-menu-home">
+          <ActiveLink href="/" className="header-menu-home">
             <i class="fa-solid fa-house"></i>
             <span className="header-menu-home-text">Home</span>
-          </Link>
-          <Link href="/adddestination" className="header-menu-add">
+          </ActiveLink>
+          <ActiveLink href="/adddestination" className="header-menu-add">
             <i class="fa-solid fa-plus"></i>
             <span className="header-menu-add-text">Add Destination</span>
-          </Link>
-          <Link href="/about" className="header-menu-about">
+          </ActiveLink>
+          <ActiveLink href="/about" className="header-menu-about">
             <i class="fa-solid fa-user-astronaut"></i>
             <span className="header-menu-about-text">The Traveler</span>
-          </Link>
+          </ActiveLink>
         </div>
       </div>
     </>

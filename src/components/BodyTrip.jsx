@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import TripMap from "./TripMap";
 import Weather from "./Weather";
-import RecentTrips from "./RecentTrips";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay } from "swiper/modules";
 import "./slider.css";
@@ -166,7 +165,6 @@ function BodyTrip({ tripDetail }) {
             </div>
           </div>
         </section>
-        <RecentTrips />
       </div>
     </>
   );
