@@ -18,6 +18,11 @@ function TripView({ city }) {
         return item.city == decodeURI(city);
       });
 
+      if (!foundElement) {
+        window.location.href = "/pagenotfound";
+        return;
+      }
+
       // console.log(foundElement);
 
       setTripDetails(foundElement);
