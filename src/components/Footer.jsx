@@ -47,16 +47,16 @@ function Footer() {
           </li>
         </ul>
         <div className="footer-social-media">
-          <a href="https://www.facebook.com/jmagalhães01">
+          <a href="https://www.facebook.com/jmagalhães01" target="_blank">
             <i class="fa-brands fa-facebook"></i>
           </a>
-          <a href="https://www.instagram.com/magalhaes281">
+          <a href="https://www.instagram.com/magalhaes281" target="_blank">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://github.com/jnhm281">
+          <a href="https://github.com/jnhm281" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/jnhmag">
+          <a href="https://www.linkedin.com/in/jnhmag" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
