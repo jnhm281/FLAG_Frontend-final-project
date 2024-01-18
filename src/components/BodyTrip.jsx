@@ -25,7 +25,7 @@ function BodyTrip({ tripDetail }) {
     }
   }
 
-  const weatherAPIKey = "260e56361ca6106361e0c6f6ba85a589";
+  const weatherAPIKey = import.meta.env.VITE_OPENWEATHER_KEY;
 
   const [currentWeather, setCurrentWeather] = useState({});
 

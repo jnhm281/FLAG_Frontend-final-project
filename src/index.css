@@ -453,6 +453,8 @@ a:hover {
     height: 2.4rem;
     padding: 0 16px;
     font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    border-radius: 0;
 }
 
 .email-input:focus {
@@ -543,11 +545,19 @@ a:hover {
 }
 
 .form-newDestination-country-input {
+    background-color: white;
+    border: 1px solid var(--gray);
+    color: var(--black);
+    border-radius: 2px;
     width: 50%;
     font-size: 1rem;
 }
 
 .form-newDestination-city-input {
+    background-color: white;
+    border: 1px solid var(--gray);
+    color: var(--black);
+    border-radius: 2px;
     width: 50%;
     font-size: 1rem;
 }
@@ -563,6 +573,26 @@ a:hover {
     border:2px solid var(--darkRed);
     color: var(--black);
 }
+
+/* ---- */
+
+input[type="date"]::before {
+	color: var(--gray);
+	content: attr(placeholder);
+}
+input[type="date"] {
+	color: var(--gray);
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: var(--black);
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}
+
+/* ---- */
 
 .form-dates {
     display: flex;
@@ -600,6 +630,11 @@ a:hover {
 
 .form-dates-checkIn-input {
     font-size: 1rem;
+    background-color: white;
+    border: 1px solid var(--gray);
+    color: var(--black);
+    border-radius: 2px;
+    
 }
 
 .form-dates-checkIn-input:focus {
@@ -628,6 +663,10 @@ a:hover {
 
 .form-dates-checkOut-input {
     font-size: 1rem;
+    background-color: white;
+    border: 1px solid var(--gray);
+    color: var(--black);
+    border-radius: 2px;
 }
 
 .form-dates-checkOut-input:focus {
@@ -685,6 +724,10 @@ a:hover {
 
 .form-upload-input {
     font-size: 1rem;
+    /* background-color: white;
+    border: 1px solid var(--gray);
+    color: var(--black);
+    border-radius: 2px; */
 }
 
 .form-upload-input:focus {
@@ -944,9 +987,9 @@ a:hover {
 
 } */
 
-.body-notFound-page {
+/* .body-notFound-page {
 
-}
+} */
 
 .notFound-container {
     display: flex;

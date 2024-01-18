@@ -50,11 +50,11 @@ function Footer() {
           <a href="https://www.facebook.com/jmagalhães01">
             <i class="fa-brands fa-facebook"></i>
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/magalhaes281">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="">
-            <i class="fa-brands fa-x-twitter"></i>
+          <a href="https://github.com/jnhm281">
+            <i class="fa-brands fa-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/jnhmag">
             <i class="fa-brands fa-linkedin"></i>
