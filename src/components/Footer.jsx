@@ -59,6 +59,9 @@ function Footer() {
           <a href="https://www.linkedin.com/in/jnhmag" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
           </a>
+          <a href="https://jnhmag.myportfolio.com/" target="_blank">
+            <i class="fa-solid fa-link"></i>
+          </a>
         </div>
         <div className="footer-contacts">
           <form
